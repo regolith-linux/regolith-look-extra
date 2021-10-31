@@ -1,0 +1,5 @@
+regolith.look: lascaille
+
+#include "/usr/share/regolith-look/lascaille/color"
+#include "/usr/share/regolith-look/lascaille/typeface"
+#include "/usr/share/regolith-look/lascaille/theme"

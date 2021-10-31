@@ -1,0 +1,34 @@
+Source: regolith-look-extra
+Section: x11
+Priority: optional
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Vcs-Git: https://github.com/regolith-linux/regolith-desktop.git
+
+Package: regolith-look-lascaille
+Architecture: any
+Depends: ${misc:Depends},
+  fonts-materialdesignicons-webfont (> 1.6.50),
+  fonts-dejavu-core,
+  ayu-theme
+Recommends:
+  i3-next-workspace,
+  i3xrocks-cpu-usage,
+  i3xrocks-net-traffic,
+  i3xrocks-time,
+  regolith-i3-compositor,
+  regolith-i3-ftue,
+  regolith-i3-gaps-partial,
+  regolith-i3-gnome,
+  regolith-i3-i3xrocks,
+  regolith-i3-remontoire,
+  regolith-i3-rofi,
+  regolith-i3-rofication,
+  regolith-i3xrocks-config
+Provides: regolith-look
+Conflicts: regolith-look
+Replaces: regolith-look
+Description: Lascaille look for Regolith.
+ A Regolith look using i3, Rofi, Remontoire, and i3-bar.
