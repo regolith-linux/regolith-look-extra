@@ -1,0 +1,5 @@
+regolith-look-extra (0.1.0-1) focal; urgency=medium
+
+  * Initial commit ~ ported Lasaille from regolith-look-default
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 31 Oct 2021 08:33:44 -0700
