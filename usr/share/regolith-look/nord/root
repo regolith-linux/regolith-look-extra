@@ -1,0 +1,5 @@
+regolith.look: nord
+
+#include "/usr/share/regolith-look/nord/color"
+#include "/usr/share/regolith-look/nord/typeface"
+#include "/usr/share/regolith-look/nord/theme"
