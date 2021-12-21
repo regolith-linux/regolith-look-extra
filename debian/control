@@ -15,7 +15,18 @@ Depends: ${misc:Depends},
   fonts-font-awesome, 
   fonts-source-code-pro-ttf
 Provides: regolith-look
-Conflicts: regolith-look
-Replaces: regolith-look
 Description: Nord look for Regolith
  Nord Look with fontawesome and sourcecode pro
+
+
+Package: regolith-look-gruvbox
+Architecture: any
+Depends: ${misc:Depends}, 
+  regolith-styles, 
+  gruvbox-gtk, 
+  moka-icon-theme, 
+  fonts-materialdesignicons-webfont, 
+  fonts-jetbrains-mono
+Provides: regolith-look
+Description: User contributed gruvbox theme
+ Colors based on https://github.com/morhetz/gruvbox
