@@ -9,23 +9,22 @@ Vcs-Git: https://github.com/regolith-linux/regolith-desktop.git
 
 Package: regolith-look-nord
 Architecture: any
-Depends: ${misc:Depends},   
-  arc-icon-theme, 
-  nordic, 
-  fonts-font-awesome, 
-  fonts-source-code-pro-ttf
+Depends: ${misc:Depends},
+  arc-icon-theme,
+  nordic,
+  fonts-nerd-font-sourcecodepro
 Provides: regolith-look
 Description: Nord look for Regolith
- Nord Look with fontawesome and sourcecode pro
+ Nord Look with sourcecode pro
 
 
 # Package: regolith-look-gruvbox
 # Architecture: any
-# Depends: ${misc:Depends}, 
-#   regolith-styles, 
-#   gruvbox-gtk, 
-#   moka-icon-theme, 
-#   fonts-materialdesignicons-webfont, 
+# Depends: ${misc:Depends},
+#   regolith-styles,
+#   gruvbox-gtk,
+#   moka-icon-theme,
+#   fonts-materialdesignicons-webfont,
 #   fonts-jetbrains-mono
 # Provides: regolith-look
 # Description: User contributed gruvbox theme
