@@ -12,6 +12,6 @@
 #define color_red      #BF616A
 #define color_magenta  #5E81AC
 #define color_violet   #B48EAD
-#define color_blue     #81A1C1
+#define color_blue     #5E81AC
 #define color_cyan     #88C0D0
 #define color_green    #A3BE8C
