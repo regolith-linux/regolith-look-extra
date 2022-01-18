@@ -1,6 +1,6 @@
 #define gnome_gtk_theme           Nordic
 #define gnome_icon_theme          Arc
-#define desktop_wallpaper   /usr/share/backgrounds/luca-bravo-xnqVGsbXgV4-unsplash.jpg
+#define desktop_wallpaper         /usr/share/backgrounds/regolith-nord-v1.0.0.png
 #define terminal_scrollbar never
 
 #define i3wm_window_border_size         1

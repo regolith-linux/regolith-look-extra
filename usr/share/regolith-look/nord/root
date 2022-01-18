@@ -5,4 +5,4 @@ regolith.look: nord
 #include "/usr/share/regolith-look/nord/theme"
 
 #include "/usr/share/regolith-look/nord/i3-wm"
-!#include "/usr/share/regolith-look/nord/gnome-terminal"
+#include "/usr/share/regolith-look/nord/gnome-terminal"

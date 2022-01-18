@@ -1,3 +1,10 @@
+regolith-look-extra (0.3.3-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * visual refresh to nord look
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 17 Jan 2022 18:26:20 -0800
+
 regolith-look-extra (0.2.3-1) focal; urgency=medium
 
   [ Ken Gilmer ]
