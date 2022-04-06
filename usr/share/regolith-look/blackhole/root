@@ -1,0 +1,11 @@
+regolith.look: ayu-dark
+
+! -- Styles - Colors
+#include "/usr/share/regolith-look/blackhole/color"
+
+! -- Styles - Fonts
+#include "/usr/share/regolith-look/blackhole/typeface"
+
+! -- Styles - Theme
+#include "/usr/share/regolith-look/blackhole/theme"
+#include "/usr/share/regolith-look/blackhole/i3-wm"
