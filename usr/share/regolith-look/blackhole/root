@@ -1,4 +1,4 @@
-regolith.look: ayu-dark
+regolith.look: blackhole
 
 ! -- Styles - Colors
 #include "/usr/share/regolith-look/blackhole/color"
