@@ -9,3 +9,4 @@ regolith.look: blackhole
 ! -- Styles - Theme
 #include "/usr/share/regolith-look/blackhole/theme"
 #include "/usr/share/regolith-look/blackhole/i3-wm"
+#include "/usr/share/regolith-look/blackhole/gnome-terminal"
