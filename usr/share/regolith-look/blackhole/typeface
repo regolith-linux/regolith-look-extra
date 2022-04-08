@@ -2,9 +2,6 @@
 #define typeface_bar_glyph  Source Code Pro Medium 9
 #define typeface_wm         pango:Source Code Pro Medium 9
 #define typeface_bar        pango:Source Code Pro Medium 9, FontAwesome 9
-#define typeface_rofi       Source Code Pro Medium 16
-#define typeface_terminal   Source Code Pro:pixelsize=12:antialias=true:autohint=true
-#define typeface_gnome_terminal Source Code Pro 12
 
 #define typeface_bar_glyph_wifi 
 #define typeface_bar_glyph_wired 
