@@ -1,6 +1,7 @@
 #define gnome_gtk_theme           Ayu-Dark
 #define gnome_icon_theme          Arc
 #define terminal_scrollbar never
+#define desktop_wallpaper         /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
 
 #define i3wm_window_border_size         1
 #define i3wm_floatingwindow_border_size 1
