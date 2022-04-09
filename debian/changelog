@@ -1,3 +1,10 @@
+regolith-look-extra (0.3.6) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Create new virtual package 'regolith-look-2' to specify a look. Version bump for cleaner upgrades from 1.x
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 08 Apr 2022 20:30:04 -0700
+
 regolith-look-extra (0.3.5-1) focal; urgency=medium
 
   [ Ken Gilmer ]
