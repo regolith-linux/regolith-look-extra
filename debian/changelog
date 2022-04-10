@@ -1,3 +1,10 @@
+regolith-look-extra (0.3.7) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix font on volume indicator to address https://github.com/regolith-linux/regolith-desktop/issues/631
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 09 Apr 2022 19:21:26 -0700
+
 regolith-look-extra (0.3.6) focal; urgency=medium
 
   [ Ken Gilmer ]
