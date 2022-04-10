@@ -1,8 +1,8 @@
 ! Typeface: Source Code Pro
-#define typeface_bar_glyph  JetBrainsMono Nerd Font 9
-#define typeface_wm         pango:JetBrainsMono Nerd Font 9
-#define typeface_bar        pango:JetBrainsMono Nerd Font 9
-#define terminal_font	    JetBrainsMono Nerd Font 10
+#define typeface_bar_glyph  SauceCodePro Nerd Font 9
+#define typeface_wm         pango:SauceCodePro Nerd Font 9
+#define typeface_bar        pango:SauceCodePro Nerd Font 9
+#define terminal_font	    SauceCodePro Nerd Font 10
 
 #define typeface_bar_glyph_wifi 
 #define typeface_bar_glyph_wired 
