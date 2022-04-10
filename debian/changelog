@@ -1,3 +1,10 @@
+regolith-look-extra (0.3.8) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix font on wifi and workspace glyph
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 09 Apr 2022 19:33:59 -0700
+
 regolith-look-extra (0.3.7) focal; urgency=medium
 
   [ Ken Gilmer ]

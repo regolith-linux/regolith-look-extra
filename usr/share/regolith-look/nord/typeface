@@ -33,6 +33,6 @@
 #define typeface_bar_glyph_thermometer ﮎ
 #define typeface_bar_glyph_time 
 #define typeface_bar_glyph_up 
-#define typeface_bar_glyph_wifi 直
+#define typeface_bar_glyph_wifi 
 #define typeface_bar_glyph_wired 
-#define typeface_bar_glyph_workspace ﰉ
+#define typeface_bar_glyph_workspace 
