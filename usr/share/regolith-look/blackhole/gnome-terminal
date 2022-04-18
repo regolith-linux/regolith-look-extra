@@ -1,6 +1,6 @@
 #define XRES_GNOME_TERMINAL
 
-gnome.terminal.color0:    color_black
+gnome.terminal.color0:    color_base03
 gnome.terminal.color1:    color_red
 gnome.terminal.color2:    color_green
 gnome.terminal.color3:    color_yellow
