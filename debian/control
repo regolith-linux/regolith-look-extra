@@ -17,6 +17,17 @@ Provides: regolith-look-2
 Description: Nord look for Regolith
  Nord Look with sourcecode pro
 
+Package: regolith-look-blackhole
+Architecture: any
+Depends: ${misc:Depends},
+  arc-icon-theme,
+  nordic,
+  fonts-nerd-font-sourcecodepro
+Provides: regolith-look-2
+Description: Nord look for Regolith
+ Nord Look with sourcecode pro
+
+
 
 # Package: regolith-look-gruvbox
 # Architecture: any
