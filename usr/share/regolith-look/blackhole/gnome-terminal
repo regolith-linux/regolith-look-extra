@@ -1,5 +1,3 @@
-#define XRES_GNOME_TERMINAL
-
 gnome.terminal.color0:    color_base03
 gnome.terminal.color1:    color_red
 gnome.terminal.color2:    color_green
@@ -17,5 +15,5 @@ gnome.terminal.color13:   color_violet
 gnome.terminal.color14:   color_cyan
 gnome.terminal.color15:   color_base2
 
-gnome.terminal.font:      terminal_font
-gnome.terminal.scrollbar: terminal_scrollbar
+gnome.terminal.font:      gtk_monospace_font_name
+gnome.terminal.scrollbar: never

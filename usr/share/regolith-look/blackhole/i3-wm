@@ -1,11 +1,13 @@
-#define XRES_I3
+#define i3wm_window_border_size         1
+#define i3wm_floatingwindow_border_size 1
+#define i3wm_gaps_inner_size            0
+#define i3wm_gaps_outer_size            0
+#define i3wm_bar_position               bottom
+
 #define Q(x) #x
 #define QUOTE(x) Q(x)
 
 #define glyph typeface_bar_glyph_workspace
-
-i3-wm.font: typeface_wm
-i3-wm.bar.font: typeface_bar
 
 i3-wm.bar.position: i3wm_bar_position
 i3-wm.bar.background.color: color_base03

@@ -1,12 +1,83 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
 regolith.look: blackhole
 
-! -- Styles - Colors
-#include "/usr/share/regolith-look/blackhole/color"
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
 
-! -- Styles - Fonts
-#include "/usr/share/regolith-look/blackhole/typeface"
+! -- Specify either a complete file path to an image
 
-! -- Styles - Theme
-#include "/usr/share/regolith-look/blackhole/theme"
+regolith.wallpaper.file:
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary: black
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type: 
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Ayu-Dark
+gtk.icon_theme_name: Arc
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name SauceCodePro Nerd Font 9
+#define gtk_document_font_name Sans 10
+#define gtk_monospace_font_name SauceCodePro Nerd Font Mono 10
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! Blackhole colors
+#define color_base03   #000000
+#define color_black    #000000
+#define color_base02   #0a0e14
+#define color_base01   #b3b1ad
+#define color_base00   #b3b1ad
+#define color_base0    #e6e1cf
+#define color_base1    #e6e1cf
+#define color_base2    #ffffff
+#define color_base3    #ffffff
+#define color_yellow   #ffd580
+#define color_orange   #e6b450
+#define color_red      #ff3333
+#define color_magenta  #f28779
+#define color_violet   #B48EAD
+#define color_blue     #73d0ff
+#define color_cyan     #95e6cb
+#define color_green    #bae67e
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/blackhole/i3xrocks"
 #include "/usr/share/regolith-look/blackhole/i3-wm"
 #include "/usr/share/regolith-look/blackhole/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh
