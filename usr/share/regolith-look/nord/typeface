@@ -1,9 +1,3 @@
-! Typeface: Source Code Pro
-#define typeface_bar_glyph  SauceCodePro Nerd Font Mono 13
-#define typeface_wm         pango:SauceCodePro Nerd Font Mono 13
-#define typeface_bar        pango:SauceCodePro Nerd Font Mono 13
-#define terminal_font       SauceCodePro Nerd Font Mono 12
-
 #define typeface_bar_glyph_battery_0 
 #define typeface_bar_glyph_battery_100 
 #define typeface_bar_glyph_battery_20 
