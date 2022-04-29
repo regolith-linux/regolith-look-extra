@@ -12,7 +12,8 @@ Architecture: any
 Depends: ${misc:Depends},
   arc-icon-theme,
   nordic,
-  fonts-nerd-font-sourcecodepro
+  fonts-nerd-font-sourcecodepro,
+  regolith-look-default
 Provides: regolith-look-2
 Description: Nord look for Regolith
  Nord Look with sourcecode pro
@@ -22,7 +23,8 @@ Architecture: any
 Depends: ${misc:Depends},
   arc-icon-theme,
   ayu-theme,
-  fonts-nerd-font-sourcecodepro
+  fonts-nerd-font-sourcecodepro,
+  regolith-look-default
 Provides: regolith-look-2
 Description: Blackhole look for Regolith
  A very dark and minimalist theme for Regolith
