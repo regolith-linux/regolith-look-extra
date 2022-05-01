@@ -1,3 +1,10 @@
+regolith-look-extra (0.4.4) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix missed mapping from gtk monospace font to bar workspacce font. Reduce blackhole font size.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 01 May 2022 10:44:19 -0700
+
 regolith-look-extra (0.4.3) focal; urgency=medium
 
   [ Ken Gilmer ]
