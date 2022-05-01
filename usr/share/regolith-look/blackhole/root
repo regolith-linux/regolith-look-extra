@@ -14,7 +14,7 @@ regolith.look: blackhole
 
 ! -- Specify either a complete file path to an image
 
-regolith.wallpaper.file:
+regolith.wallpaper.file: /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
 
 !-- *Or* specify a color
 
@@ -36,9 +36,9 @@ gtk.icon_theme_name: Arc
 ! -- Fonts
 ! --------------------------------------------
 
-#define gtk_font_name SauceCodePro Nerd Font 9
+#define gtk_font_name SauceCodePro Nerd Font Mono 11
 #define gtk_document_font_name Sans 10
-#define gtk_monospace_font_name SauceCodePro Nerd Font Mono 10
+#define gtk_monospace_font_name SauceCodePro Nerd Font Mono 11
 
 gtk.font_name: gtk_font_name
 gtk.document_font_name: gtk_document_font_name

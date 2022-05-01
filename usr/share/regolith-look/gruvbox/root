@@ -1,5 +1,89 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
 regolith.look: gruvbox
 
-#include "/usr/share/regolith-look/gruvbox/color"
-#include "/usr/share/regolith-look/gruvbox/typeface"
-#include "/usr/share/regolith-look/gruvbox/theme"
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file:
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type: 
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Gruvbox
+gtk.icon_theme_name: Moka
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name Cousine Nerd Font 12
+#define gtk_document_font_name Sans 12
+#define gtk_monospace_font_name Cousine Nerd Font 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! Gruvbox colors - https://github.com/morhetz/gruvbox
+#define color_base03   #282828
+#define color_base02   #3c3836
+#define color_base01   #504945
+#define color_base00   #665c54
+#define color_base0    #a89984
+#define color_base1    #bdae93
+#define color_base2    #d5c4a1
+#define color_base3    #ebdbb2
+#define color_gray     #928374
+#define color_red      #cc241d
+#define color_green    #98971a
+#define color_yellow   #d79921
+#define color_blue     #458588
+#define color_violet   #b16286
+#define color_cyan     #689d6a
+#define color_orange   #d65d0e
+#define color_ltred    #fb4934
+#define color_ltgreen  #b8bb26
+#define color_ltyellow #fabd2f
+#define color_ltblue   #83a598
+#define color_magenta  #d3869b
+#define color_ltcyan   #8ec07c
+#define color_brown    #fe8019
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/gruvbox/i3xrocks"
+#include "/usr/share/regolith-look/gruvbox/i3-wm"
+#include "/usr/share/regolith-look/gruvbox/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh
