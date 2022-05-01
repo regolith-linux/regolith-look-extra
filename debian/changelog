@@ -1,3 +1,10 @@
+regolith-look-extra (0.4.3) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add gruvbox look
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 01 May 2022 09:10:57 -0700
+
 regolith-look-extra (0.4.2) focal; urgency=medium
 
   [ Ken Gilmer ]
