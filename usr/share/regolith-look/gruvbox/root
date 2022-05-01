@@ -14,7 +14,7 @@ regolith.look: gruvbox
 
 ! -- Specify either a complete file path to an image
 
-regolith.wallpaper.file:
+regolith.wallpaper.file: /usr/share/backgrounds/hardy_wallpaper_uhd_regolith.png
 
 !-- *Or* specify a color
 
