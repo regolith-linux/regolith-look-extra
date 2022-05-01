@@ -1,3 +1,10 @@
+regolith-look-extra (0.4.5) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add hardy wallpaper to gruvbox. Publish gruvbox look
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 01 May 2022 16:45:56 -0700
+
 regolith-look-extra (0.4.4) focal; urgency=medium
 
   [ Ken Gilmer ]
