@@ -1,5 +1,0 @@
-regolith.look: gruvbox
-
-#include "/usr/share/regolith-look/gruvbox/color"
-#include "/usr/share/regolith-look/gruvbox/typeface"
-#include "/usr/share/regolith-look/gruvbox/theme"

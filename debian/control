@@ -29,12 +29,12 @@ Provides: regolith-look-2
 Description: Blackhole look for Regolith
  A very dark and minimalist theme for Regolith
 
-#Package: regolith-look-gruvbox
-#Architecture: any
-#Depends: ${misc:Depends},
-#  gruvbox-gtk,
-#  moka-icon-theme,
-#  fonts-nerd-font-cousine
-#Provides: regolith-look-2
-#Description: Gruvbox look for Regolith
-# Colors based on https://github.com/morhetz/gruvbox
+Package: regolith-look-gruvbox
+Architecture: any
+Depends: ${misc:Depends},
+  gruvbox-gtk,
+  moka-icon-theme,
+  fonts-nerd-font-cousine
+Provides: regolith-look-2
+Description: Gruvbox look for Regolith
+ Colors based on https://github.com/morhetz/gruvbox
