@@ -6,7 +6,7 @@
 
 #define Q(x) #x
 #define QUOTE(x) Q(x)
-
+#define glyph_font QUOTE(gtk_monospace_font_name)
 #define glyph typeface_bar_glyph_workspace
 
 i3-wm.bar.position: i3wm_bar_position
@@ -54,8 +54,6 @@ i3-wm.window.border.size: i3wm_window_border_size
 i3-wm.floatingwindow.border.size: i3wm_floatingwindow_border_size
 i3-wm.gaps.inner.size: i3wm_gaps_inner_size
 i3-wm.gaps.outer.size: i3wm_gaps_outer_size
-
-#define glyph_font QUOTE(typeface_bar_glyph)
 
 #define WORKSPACE_NAME(INDEX, FONT, COLOR, GLYPH) INDEX:<span> </span><span font_desc=FONT>INDEX </span><span foreground=COLOR>GLYPH</span><span> </span>
 
