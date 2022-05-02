@@ -1,3 +1,10 @@
+regolith-look-extra (0.4.6) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fatter borders in gruvbox for upcoming rounded corners
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 01 May 2022 19:19:26 -0700
+
 regolith-look-extra (0.4.5) focal; urgency=medium
 
   [ Ken Gilmer ]
