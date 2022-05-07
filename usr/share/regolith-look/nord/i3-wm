@@ -9,6 +9,8 @@
 #define glyph_font QUOTE(gtk_monospace_font_name)
 #define glyph typeface_bar_glyph_workspace
 
+ilia.stylesheet: /usr/share/regolith-look/nord/ilia.css
+
 i3-wm.bar.position: i3wm_bar_position
 i3-wm.bar.background.color: color_base03
 i3-wm.bar.statusline.color: color_base1

@@ -1,0 +1,16 @@
+.root_box {
+  margin: 8px;
+}
+
+.filter_entry {
+  border: none;
+  background: none;
+}
+
+.notebook {
+  border: none;
+}
+
+.keybindings {
+  font-family: RobotoMono Nerd Font;
+}
