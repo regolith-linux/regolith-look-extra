@@ -33,6 +33,12 @@ gtk.theme_name: Nordic
 gtk.icon_theme_name: Arc
 
 ! --------------------------------------------
+! -- Picom Compositor Config
+! --------------------------------------------
+
+i3-wm.program.compositor: /usr/share/regolith-look/nord/compositor-init
+
+! --------------------------------------------
 ! -- Fonts
 ! --------------------------------------------
 
@@ -65,6 +71,7 @@ gtk.monospace_font_name: gtk_monospace_font_name
 #define color_blue     #5E81AC
 #define color_cyan     #88C0D0
 #define color_green    #A3BE8C
+#define color_nord4    #4C566A
 
 ! --------------------------------------------
 ! -- Component resources

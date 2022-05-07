@@ -11,8 +11,9 @@ Package: regolith-look-nord
 Architecture: any
 Depends: ${misc:Depends},
   arc-icon-theme,
-  nordic,
   fonts-nerd-font-robotomono,
+  nordic,
+  picom,
   regolith-look-default
 Provides: regolith-look-2
 Description: Nord look for Regolith
