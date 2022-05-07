@@ -1,3 +1,10 @@
+regolith-look-extra (0.4.8) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Give rounded corners to Nord w/ custom picom config.  Misc tweaks
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 07 May 2022 16:55:31 -0700
+
 regolith-look-extra (0.4.7) focal; urgency=medium
 
   [ Ken Gilmer ]
