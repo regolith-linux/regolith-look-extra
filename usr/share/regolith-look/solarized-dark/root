@@ -1,0 +1,82 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: solarized-dark
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file: /usr/share/regolith-look/solarized-dark/cojdev_github_io-lowpoly.png
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: SolArc-Dark
+gtk.icon_theme_name: Arc
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name MesloLGS Nerd Font 12
+#define gtk_document_font_name Sans 11
+#define gtk_monospace_font_name MesloLGS Nerd Font 11
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! Solarized Dark Colors
+#define color_base03    #002b36
+#define color_base02    #073642
+#define color_base01    #586e75
+#define color_base00    #657b83
+#define color_base0     #839496
+#define color_base1     #93a1a1
+#define color_base2     #eee8d5
+#define color_base3     #fdf6e3
+#define color_yellow    #b58900
+#define color_orange    #cb4b16
+#define color_red       #dc322f
+#define color_magenta   #d33682
+#define color_violet    #6c71c4
+#define color_blue      #268bd2
+#define color_cyan      #2aa198
+#define color_green     #859900
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/solarized-dark/i3xrocks"
+#include "/usr/share/regolith-look/solarized-dark/i3-wm"
+#include "/usr/share/regolith-look/solarized-dark/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh

@@ -35,7 +35,20 @@ Architecture: any
 Depends: ${misc:Depends},
   gruvbox-gtk,
   moka-icon-theme,
-  fonts-nerd-font-cousine
+  fonts-nerd-font-cousine,
+  regolith-look-default
 Provides: regolith-look-2
 Description: Gruvbox look for Regolith
  Colors based on https://github.com/morhetz/gruvbox
+
+Package: regolith-look-solarized-dark
+Architecture: any
+Depends: ${misc:Depends},
+  gruvbox-gtk,
+  arc-icon-theme, 
+  solarc-theme,
+  fonts-nerd-font-meslo,
+  regolith-look-default
+Provides: regolith-look-2
+Description: Solarized Dark look for Regolith
+ Colors based on https://ethanschoonover.com/solarized/
