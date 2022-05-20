@@ -52,3 +52,15 @@ Depends: ${misc:Depends},
 Provides: regolith-look-2
 Description: Solarized Dark look for Regolith
  Colors based on https://ethanschoonover.com/solarized/
+
+Package: regolith-look-nevil
+Architecture: any
+Depends: ${misc:Depends},
+  arc-icon-theme,
+  fonts-nerd-font-mononoki,
+  whitesir-light,
+  picom,
+  regolith-look-default
+Provides: regolith-look-2
+Description: Light look for Regolith
+ Colors based on Ayu light and WhiteSir-gtk-theme

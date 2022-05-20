@@ -1,0 +1,16 @@
+.root_box {
+  margin: 4px;
+}
+
+.filter_entry {
+  border: none;
+  background: none;
+}
+
+.notebook {
+  border: none;
+}
+
+.keybindings {
+  font-family: mononoki Nerd Font Mono;
+}

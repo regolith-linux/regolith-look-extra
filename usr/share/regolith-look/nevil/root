@@ -1,0 +1,93 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: nevil
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: WhiteSur-light
+gtk.icon_theme_name: Arc
+
+! --------------------------------------------
+! -- Picom Compositor Config
+! --------------------------------------------
+
+i3-wm.program.compositor: /usr/share/regolith-look/nevil/compositor-init
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name mononoki Nerd Font Mono 12
+#define gtk_document_font_name Sans 12
+#define gtk_monospace_font_name mononoki Nerd Font Mono 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! nevil colors
+
+#define color_base03   #ffffff
+#define color_base02   #FEFEFE
+#define color_base01   #FAFAFA
+#define color_base00   #f5f5f5
+
+#define color_base0    #242424
+#define color_base1    #363636
+#define color_base2    #7e7e7e
+#define color_base3    #363636
+
+#define color_yellow   #FFAA33
+#define color_orange   #FA8D3E
+#define color_red      #E65050
+#define color_magenta  #9F40FF
+#define color_violet   #A37ACC
+#define color_blue     #478ACC
+#define color_cyan     #4CBF99
+#define color_green    #86B300
+#define color_brown    #E6BA7E
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file:
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary: #C8C8C8
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type: 
+
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/nevil/i3xrocks"
+#include "/usr/share/regolith-look/nevil/i3-wm"
+#include "/usr/share/regolith-look/nevil/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh
