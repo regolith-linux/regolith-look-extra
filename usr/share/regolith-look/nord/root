@@ -14,7 +14,7 @@ regolith.look: nord
 
 ! -- Specify either a complete file path to an image
 
-regolith.wallpaper.file: /usr/share/backgrounds/regolith-nord-v1.0.0.png
+regolith.wallpaper.file: /usr/share/regolith-look/nord/nord-regolith2-noText-GMFranceschini.svg
 
 !-- *Or* specify a color
 
