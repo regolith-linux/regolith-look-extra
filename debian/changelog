@@ -1,3 +1,10 @@
+regolith-look-extra (0.5.3) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Use new wallpapers from GMFranceschini in nord and gruvbox looks
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 21 May 2022 15:53:32 -0700
+
 regolith-look-extra (0.5.2) focal; urgency=medium
 
   [ Ken Gilmer ]
