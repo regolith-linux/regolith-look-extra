@@ -1,3 +1,10 @@
+regolith-look-extra (0.5.1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Tweaks and fixes to nevil
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 21 May 2022 08:00:24 -0700
+
 regolith-look-extra (0.5.0) focal; urgency=medium
 
   [ Ken Gilmer ]
