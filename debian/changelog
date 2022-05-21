@@ -1,3 +1,10 @@
+regolith-look-extra (0.5.2) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix dependency
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 21 May 2022 14:16:34 -0700
+
 regolith-look-extra (0.5.1) focal; urgency=medium
 
   [ Ken Gilmer ]
