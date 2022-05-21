@@ -58,7 +58,7 @@ Architecture: any
 Depends: ${misc:Depends},
   arc-icon-theme,
   fonts-nerd-font-mononoki,
-  whitesir-light,
+  whitesur-gtk-theme,
   picom,
   regolith-look-default
 Provides: regolith-look-2
