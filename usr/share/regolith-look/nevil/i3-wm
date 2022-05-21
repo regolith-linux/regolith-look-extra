@@ -15,42 +15,46 @@ i3-wm.bar.position: i3wm_bar_position
 i3-wm.bar.background.color: color_base00
 i3-wm.bar.statusline.color: color_base1
 i3-wm.bar.separator.color: color_blue
-i3-wm.bar.workspace.focused.border.color: color_base02
-i3-wm.bar.workspace.focused.background.color: color_base02
-i3-wm.bar.workspace.focused.text.color: color_base1
+
+i3-wm.bar.workspace.focused.border.color: color_base3
+i3-wm.bar.workspace.focused.background.color: color_base2
+i3-wm.bar.workspace.focused.text.color: color_base03
+
 i3-wm.bar.workspace.active.border.color: color_base02
 i3-wm.bar.workspace.active.background.color: color_base02
-i3-wm.bar.workspace.active.text.color: color_base00
+i3-wm.bar.workspace.active.text.color: color_base3
+
 i3-wm.bar.workspace.inactive.border.color: color_base03
 i3-wm.bar.workspace.inactive.background.color: color_base03
-i3-wm.bar.workspace.inactive.text.color: color_base00
+i3-wm.bar.workspace.inactive.text.color: color_base3
+
 i3-wm.bar.workspace.urgent.border.color: color_red
 i3-wm.bar.workspace.urgent.background.color: color_red
 i3-wm.bar.workspace.urgent.text.color: color_base1
 
-i3-wm.client.focused.color.border: color_base03
+i3-wm.client.focused.color.border: color_base02
 i3-wm.client.focused.color.background: color_base01
 i3-wm.client.focused.color.text: color_base1
 i3-wm.client.focused.color.indicator: color_blue
-i3-wm.client.focused.color.child_border: color_base1
+i3-wm.client.focused.color.child_border: color_base2
 
-i3-wm.client.focused_inactive.color.border: color_base03
+i3-wm.client.focused_inactive.color.border: color_base01
 i3-wm.client.focused_inactive.color.background: color_base02
 i3-wm.client.focused_inactive.color.text: color_base0
 i3-wm.client.focused_inactive.color.indicator: color_base02
-i3-wm.client.focused_inactive.color.child_border: color_base03
+i3-wm.client.focused_inactive.color.child_border: color_base00
 
-i3-wm.client.unfocused.color.border: color_base03
+i3-wm.client.unfocused.color.border: color_base01
 i3-wm.client.unfocused.color.background: color_base02
 i3-wm.client.unfocused.color.text: color_base0
 i3-wm.client.unfocused.color.indicator: color_base02
-i3-wm.client.unfocused.color.child_border: color_base03
+i3-wm.client.unfocused.color.child_border: color_base00
 
-i3-wm.client.urgent.color.border: color_base03
+i3-wm.client.urgent.color.border: color_base01
 i3-wm.client.urgent.color.background: color_red
 i3-wm.client.urgent.color.text: color_base1
 i3-wm.client.urgent.color.indicator: color_red
-i3-wm.client.urgent.color.child_border: color_base03
+i3-wm.client.urgent.color.child_border: color_base00
 
 i3-wm.window.border.size: i3wm_window_border_size
 i3-wm.floatingwindow.border.size: i3wm_floatingwindow_border_size

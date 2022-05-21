@@ -59,6 +59,8 @@ gtk.monospace_font_name: gtk_monospace_font_name
 #define color_green    #86B300
 #define color_brown    #E6BA7E
 
+#define color_wallpaper #C8C8C8
+
 ! --------------------------------------------
 ! -- Wallpaper 
 ! --------------------------------------------
@@ -69,7 +71,7 @@ regolith.wallpaper.file:
 
 !-- *Or* specify a color
 
-regolith.wallpaper.color.primary: #C8C8C8
+regolith.wallpaper.color.primary: color_wallpaper
 
 !-- If specifying a primary color, optional additional settings
 
