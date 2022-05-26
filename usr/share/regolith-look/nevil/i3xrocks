@@ -32,7 +32,7 @@
 #define typeface_bar_glyph_wired 
 #define typeface_bar_glyph_workspace 
 
-i3xrocks.label.color:       color_base0
+i3xrocks.label.color:       color_base3
 i3xrocks.value.color:       color_base1
 i3xrocks.value.font:        gtk_monospace_font_name
 i3xrocks.critical.color:    color_red

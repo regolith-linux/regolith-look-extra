@@ -25,9 +25,9 @@ i3-wm.program.compositor: /usr/share/regolith-look/nevil/compositor-init
 ! -- Fonts
 ! --------------------------------------------
 
-#define gtk_font_name mononoki Nerd Font Mono 12
+#define gtk_font_name mononoki Nerd Font 12
 #define gtk_document_font_name Sans 12
-#define gtk_monospace_font_name mononoki Nerd Font Mono 12
+#define gtk_monospace_font_name mononoki Nerd Font 12
 
 gtk.font_name: gtk_font_name
 gtk.document_font_name: gtk_document_font_name
