@@ -17,7 +17,7 @@ Depends: ${misc:Depends},
   regolith-look-default
 Provides: regolith-look-2
 Description: Nord look for Regolith
- Nord Look with sourcecode pro
+ Regolith Look with Nord color scheme, Arc icons, Roboto font, and Nordic GTK theme
 
 Package: regolith-look-blackhole
 Architecture: any
@@ -27,8 +27,8 @@ Depends: ${misc:Depends},
   fonts-nerd-font-sourcecodepro,
   regolith-look-default
 Provides: regolith-look-2
-Description: Blackhole look for Regolith
- A very dark and minimalist theme for Regolith
+Description: A very dark and minimalist theme for Regolith
+ Regolith Look with dark color scheme, Arc icons, Source Code Pro font, and Ayu GTK theme
 
 Package: regolith-look-gruvbox
 Architecture: any
@@ -39,7 +39,7 @@ Depends: ${misc:Depends},
   regolith-look-default
 Provides: regolith-look-2
 Description: Gruvbox look for Regolith
- Colors based on https://github.com/morhetz/gruvbox
+ Regolith Look with Gruvbox color scheme, Moka icons, Cousine font, and gruvbox-gtk GTK theme
 
 Package: regolith-look-solarized-dark
 Architecture: any
@@ -51,7 +51,7 @@ Depends: ${misc:Depends},
   regolith-look-default
 Provides: regolith-look-2
 Description: Solarized Dark look for Regolith
- Colors based on https://ethanschoonover.com/solarized/
+ Regolith Look with Solarized dark color scheme, Arc icons, Meslo font, and solarc GTK theme
 
 Package: regolith-look-nevil
 Architecture: any
@@ -62,5 +62,5 @@ Depends: ${misc:Depends},
   picom,
   regolith-look-default
 Provides: regolith-look-2
-Description: Light look for Regolith
- Colors based on Ayu light and WhiteSir-gtk-theme
+Description: A light look for Regolith
+ Regolith Look with Ayu color scheme, Arc icons, Mononoki font, and WhiteSur GTK theme
