@@ -1,3 +1,10 @@
+regolith-look-extra (0.5.9) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Update ilia CSS style
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 04 Jun 2022 14:25:51 -0700
+
 regolith-look-extra (0.5.8) focal; urgency=medium
 
   [ Ken Gilmer ]
