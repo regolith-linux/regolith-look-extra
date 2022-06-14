@@ -12,5 +12,5 @@ done
 if [[ -f "$HOME/.config/regolith2/picom/config" ]]; then
   /usr/bin/picom --config "$HOME/.config/regolith2/picom/config"
 else
-  /usr/bin/picom --config /usr/share/regolith-look/nord/picom.conf
+  /usr/bin/picom --config /usr/share/regolith-look/nevil/picom.conf
 fi
