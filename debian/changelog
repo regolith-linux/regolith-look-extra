@@ -1,3 +1,10 @@
+regolith-look-extra (0.5.10) focal; urgency=medium
+
+  [ Brian Ballantine ]
+  * s/nord/nevil in composer-init
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 13 Jun 2022 19:18:31 -0700
+
 regolith-look-extra (0.5.9) focal; urgency=medium
 
   [ Ken Gilmer ]
