@@ -45,7 +45,7 @@ Package: regolith-look-solarized-dark
 Architecture: any
 Depends: ${misc:Depends},
   gruvbox-gtk,
-  arc-icon-theme, 
+  arc-icon-theme,
   solarc-theme,
   fonts-nerd-font-meslo,
   regolith-look-default
@@ -64,3 +64,14 @@ Depends: ${misc:Depends},
 Provides: regolith-look-2
 Description: A light look for Regolith
  Regolith Look with Ayu color scheme, Arc icons, Mononoki font, and WhiteSur GTK theme
+
+Package: regolith-look-dracula
+Architecture: any
+Depends: ${misc:Depends},
+  dracula-gtk,
+  fonts-nerd-font-robotomono,
+  moka-icon-theme,
+  regolith-look-default
+Provides: regolith-look
+Description: User contributed Dracula theme
+ Colors based on https://draculatheme.com/gtk
