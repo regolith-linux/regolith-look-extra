@@ -1,3 +1,10 @@
+regolith-look-extra (0.6.0) focal; urgency=medium
+
+  [ joe ]
+  * Add dracula look
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 17 Jun 2022 19:15:11 -0700
+
 regolith-look-extra (0.5.10) focal; urgency=medium
 
   [ Brian Ballantine ]
