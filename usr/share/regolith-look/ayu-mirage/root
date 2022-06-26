@@ -1,0 +1,90 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: ayu-mirage
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file:
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary: #2c4162
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type: 
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Ayu-Mirage-Dark
+gtk.icon_theme_name: Arc
+
+! --------------------------------------------
+! -- Picom Compositor Config
+! --------------------------------------------
+
+i3-wm.program.compositor: /usr/share/regolith-look/ayu-mirage/compositor-init
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name Hack Nerd Font Mono 12
+#define gtk_document_font_name Sans 12
+#define gtk_monospace_font_name Hack Nerd Font Mono 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! Ayu Mirage colors
+
+#define color_white          #707A8C
+#define color_red            #FF6666
+#define color_green          #D5FF80
+#define color_yellow         #FFCC66
+#define color_blue           #80BFFF
+#define color_purple         #695380
+#define color_cyan           #95E6CB
+#define color_black          #1F2430
+#define color_brightwhite    #CCCAC2
+#define color_brightred      #F28779
+#define color_brightgreen    #87D96C
+#define color_brightyellow   #FFD173
+#define color_brightblue     #73D0FF
+#define color_brightpurple   #DFBFFF
+#define color_brightcyan     #95E6CB
+#define color_brightblack    #242936
+#define color_active         #2c4162
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/ayu-mirage/i3xrocks"
+#include "/usr/share/regolith-look/ayu-mirage/i3-wm"
+#include "/usr/share/regolith-look/ayu-mirage/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh

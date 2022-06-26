@@ -1,0 +1,89 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: ayu
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file:
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary: #EEE8D5
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type: 
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Ayu
+gtk.icon_theme_name: Arc
+
+! --------------------------------------------
+! -- Picom Compositor Config
+! --------------------------------------------
+
+i3-wm.program.compositor: /usr/share/regolith-look/ayu/compositor-init
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name Hack Nerd Font Mono 12
+#define gtk_document_font_name Sans 12
+#define gtk_monospace_font_name Hack Nerd Font Mono 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! Ayu colors
+#define color_white          #FAFAFA
+#define color_red            #E65050
+#define color_green          #86B300
+#define color_yellow         #FFAA33
+#define color_blue           #478ACC
+#define color_purple         #9F40FF
+#define color_cyan           #4CBF99
+#define color_black          #575F66
+#define color_brightwhite    #FAFAFA
+#define color_brightred      #F07171
+#define color_brightgreen    #6CBF43
+#define color_brightyellow   #F2AE49
+#define color_brightblue     #399EE6
+#define color_brightpurple   #A37ACC
+#define color_brightcyan     #4CBF99
+#define color_brightblack    #8A9199
+#define color_active         #EEE8D5
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/ayu/i3xrocks"
+#include "/usr/share/regolith-look/ayu/i3-wm"
+#include "/usr/share/regolith-look/ayu/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh
