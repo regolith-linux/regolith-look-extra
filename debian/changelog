@@ -1,3 +1,13 @@
+regolith-look-extra (0.7.0) focal; urgency=medium
+
+  [ joe ]
+  * Add Ayu, Ayu-Mirage & Ayu-Dark
+
+  [ Ken Gilmer ]
+  * Update workspace glyph icons across a few looks for more flair
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 26 Jun 2022 08:25:06 -0700
+
 regolith-look-extra (0.6.1) focal; urgency=medium
 
   [ Ken Gilmer ]
