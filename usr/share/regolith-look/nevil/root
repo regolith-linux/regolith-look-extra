@@ -13,7 +13,7 @@ regolith.look: nevil
 ! --------------------------------------------
 
 gtk.theme_name: WhiteSur-light
-gtk.icon_theme_name: Arc
+gtk.icon_theme_name: Moka
 
 ! --------------------------------------------
 ! -- Picom Compositor Config
