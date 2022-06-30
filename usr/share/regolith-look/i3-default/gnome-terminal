@@ -1,0 +1,21 @@
+gnome.terminal.color0:    color_terminal_0
+gnome.terminal.color1:    color_terminal_1
+gnome.terminal.color2:    color_terminal_2
+gnome.terminal.color3:    color_terminal_3
+gnome.terminal.color4:    color_terminal_4
+gnome.terminal.color5:    color_terminal_5
+gnome.terminal.color6:    color_terminal_6
+gnome.terminal.color7:    color_terminal_7
+gnome.terminal.color8:    color_terminal_8
+gnome.terminal.color9:    color_terminal_9
+gnome.terminal.color10:   color_terminal_10
+gnome.terminal.color11:   color_terminal_11
+gnome.terminal.color12:   color_terminal_12
+gnome.terminal.color13:   color_terminal_13
+gnome.terminal.color14:   color_terminal_14
+gnome.terminal.color15:   color_terminal_15
+
+gnome.terminal.font:      gtk_monospace_font_name
+gnome.terminal.scrollbar: never
+gnome.terminal.background-transparency-percent: 0
+gnome.terminal.use-transparent-background: false
