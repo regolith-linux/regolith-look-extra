@@ -1,0 +1,117 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --
+! -- This is the root file of Xresource definition for the Regolith 2 default look.
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: lascaille
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.wallpaper.file: /usr/share/regolith-look/lascaille/ESP_016895_1525_desktop.jpg
+regolith.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type: 
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper 
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/lascaille/pia21972.png
+regolith.lockscreen.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary: #323A4C
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Ayu-Mirage-Dark
+gtk.icon_theme_name: Arc
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name Bitstream Vera Sans 11
+#define gtk_document_font_name Sans 11
+#define gtk_monospace_font_name BitstreamVeraSansMono Nerd Font 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! -- Ayu Mirage colors - https://github.com/ayu-theme/ayu-colors
+
+! -- Darker, dark to light gradients
+#define color_base03   #1F2430
+#define color_base02   #292B30
+#define color_base01   #BFBAB0
+#define color_base00   #CBCCC6
+
+! -- Light gradients
+#define color_base0    #E6E1CF
+#define color_base3    #FFFFFF
+
+! -- Palette 
+#define color_yellow   #FFD580
+#define color_orange   #FFA759
+#define color_red      #FF3333
+#define color_magenta  #D4BFFF
+#define color_violet   #B48EAD
+#define color_blue     #77A8D9
+#define color_cyan     #95E6CB
+#define color_green    #BAE67E
+#define color_brown    #F29E74
+#define color_ltblue   #73D0FF
+#define color_ltgreen  #A6CC70
+#define color_ltyellow #FFE6B3
+#define color_ltcyan   #5CCFE6
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/lascaille/i3xrocks"
+#include "/usr/share/regolith-look/lascaille/i3-wm"
+#include "/usr/share/regolith-look/lascaille/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! -- NOTE: The following script path can be changed to support alternative look configurations
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh
