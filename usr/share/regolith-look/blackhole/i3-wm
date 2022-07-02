@@ -1,8 +1,10 @@
-#define i3wm_window_border_size         1
-#define i3wm_floatingwindow_border_size 1
-#define i3wm_gaps_inner_size            0
-#define i3wm_gaps_outer_size            0
-#define i3wm_bar_position               bottom
+#define i3wm_window_border_style         pixel
+#define i3wm_floatingwindow_border_style pixel
+#define i3wm_window_border_size          1
+#define i3wm_floatingwindow_border_size  1
+#define i3wm_gaps_inner_size             0
+#define i3wm_gaps_outer_size             0
+#define i3wm_bar_position                bottom
 
 #define Q(x) #x
 #define QUOTE(x) Q(x)
@@ -52,7 +54,9 @@ i3-wm.client.urgent.color.text: color_base3
 i3-wm.client.urgent.color.indicator: color_red
 i3-wm.client.urgent.color.child_border: color_base03
 
+i3-wm.window.border.style: i3wm_window_border_style
 i3-wm.window.border.size: i3wm_window_border_size
+i3-wm.floatingwindow.border.style: i3wm_floatingwindow_border_style
 i3-wm.floatingwindow.border.size: i3wm_floatingwindow_border_size
 i3-wm.gaps.inner.size: i3wm_gaps_inner_size
 i3-wm.gaps.outer.size: i3wm_gaps_outer_size

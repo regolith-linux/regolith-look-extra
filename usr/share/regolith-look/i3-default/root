@@ -1,0 +1,139 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: i3-default
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file:
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary: #000000
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type: 
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Adwaita-dark
+gtk.icon_theme_name: Adwaita
+
+! --------------------------------------------
+! -- Picom Compositor Config
+! --------------------------------------------
+
+i3-wm.program.compositor: /usr/share/regolith-look/i3-default/compositor-init
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name DejaVuSansMono Nerd Font 10
+#define gtk_document_font_name DejaVuSansMono Nerd Font 10
+#define gtk_monospace_font_name DejaVuSansMono Nerd Font 10
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! i3-default colors
+
+#define color_terminal_0                            #000000
+#define color_terminal_1                            #c01c28
+#define color_terminal_2                            #26a269
+#define color_terminal_3                            #a2734c
+#define color_terminal_4                            #12488b
+#define color_terminal_5                            #a347ba
+#define color_terminal_6                            #2aa1b3
+#define color_terminal_7                            #d0cfcc
+#define color_terminal_8                            #5e5c64
+#define color_terminal_9                            #f66151
+#define color_terminal_10                           #33da7a
+#define color_terminal_11                           #e9ad0c
+#define color_terminal_12                           #2a7bde
+#define color_terminal_13                           #c061cb
+#define color_terminal_14                           #33c7de
+#define color_terminal_15                           #ffffff
+
+#define color_i3xrocks_label                        #ffffff
+#define color_i3xrocks_value                        #ffffff
+#define color_i3xrocks_critical                     #900000
+#define color_i3xrocks_error                        #a347ba
+#define color_i3xrocks_warning                      #e9ad0c
+#define color_i3xrocks_nominal                      #33da7a
+
+#define color_bar_background                        #000000
+#define color_bar_statusline                        #ffffff
+#define color_bar_separator                         #000000
+#define color_bar_workspace_focused_border          #4c7899
+#define color_bar_workspace_focused_background      #285577 
+#define color_bar_workspace_focused_text            #ffffff
+#define color_bar_workspace_active_border           #4c7899
+#define color_bar_workspace_active_background       #285577
+#define color_bar_workspace_active_text             #ffffff
+#define color_bar_workspace_inactive_border         #333333
+#define color_bar_workspace_inactive_background     #5f676a
+#define color_bar_workspace_inactive_text           #ffffff
+#define color_bar_workspace_urgent_border           #2f343a
+#define color_bar_workspace_urgent_background       #900000
+#define color_bar_workspace_urgent_text             #ffffff
+
+#define color_client_focused_border                 #4c7899
+#define color_client_focused_background             #285577
+#define color_client_focused_text                   #ffffff
+#define color_client_focused_indicator              #2e9ef4
+#define color_client_focused_child_border           #285577
+#define color_client_focused_inactive_border        #333333
+#define color_client_focused_inactive_background    #5f676a
+#define color_client_focused_inactive_text          #ffffff
+#define color_client_focused_inactive_indicator     #484e50
+#define color_client_focused_inactive_child_border  #5f676a
+#define color_client_unfocused_border               #333333
+#define color_client_unfocused_background           #222222
+#define color_client_unfocused_text                 #888888
+#define color_client_unfocused_indicator            #292d2e
+#define color_client_unfocused_child_border         #222222
+#define color_client_urgent_border                  #2f343a
+#define color_client_urgent_background              #900000
+#define color_client_urgent_text                    #ffffff
+#define color_client_urgent_indicator               #900000
+#define color_client_urgent_child_border            #900000
+#define color_client_placeholder_border             #000000
+#define color_client_placeholder_background         #0c0c0c
+#define color_client_placeholder_text               #ffffff
+#define color_client_placeholder_indicator          #000000
+#define color_client_placeholder_child_border       #0c0c0c
+#define color_client_background                     #ffffff
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/i3-default/i3xrocks"
+#include "/usr/share/regolith-look/i3-default/i3-wm"
+#include "/usr/share/regolith-look/i3-default/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh

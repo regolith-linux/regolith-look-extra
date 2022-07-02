@@ -1,0 +1,82 @@
+#define i3wm_window_border_style         normal
+#define i3wm_floatingwindow_border_style normal
+#define i3wm_window_border_size          2
+#define i3wm_floatingwindow_border_size  2
+#define i3wm_gaps_inner_size             0
+#define i3wm_gaps_outer_size             0
+#define i3wm_bar_position                bottom
+
+#define Q(x) #x
+#define QUOTE(x) Q(x)
+#define glyph_font QUOTE(gtk_monospace_font_name)
+#define glyph typeface_bar_glyph_workspace
+
+ilia.stylesheet: /usr/share/regolith-look/i3-default/ilia.css
+
+i3-wm.bar.position: i3wm_bar_position
+i3-wm.bar.background.color: color_bar_background
+i3-wm.bar.statusline.color: color_bar_statusline
+i3-wm.bar.separator.color: color_bar_separator
+i3-wm.bar.workspace.focused.border.color: color_bar_workspace_focused_border
+i3-wm.bar.workspace.focused.background.color: color_bar_workspace_focused_background
+i3-wm.bar.workspace.focused.text.color: color_bar_workspace_focused_text
+i3-wm.bar.workspace.active.border.color: color_bar_workspace_active_border
+i3-wm.bar.workspace.active.background.color: color_bar_workspace_active_background
+i3-wm.bar.workspace.active.text.color: color_bar_workspace_active_text
+i3-wm.bar.workspace.inactive.border.color: color_bar_workspace_inactive_border
+i3-wm.bar.workspace.inactive.background.color: color_bar_workspace_inactive_background
+i3-wm.bar.workspace.inactive.text.color: color_bar_workspace_inactive_text
+i3-wm.bar.workspace.urgent.border.color: color_bar_workspace_urgent_border
+i3-wm.bar.workspace.urgent.background.color: color_bar_workspace_urgent_background
+i3-wm.bar.workspace.urgent.text.color: color_bar_workspace_urgent_text
+
+i3-wm.client.focused.color.border: color_client_focused_border
+i3-wm.client.focused.color.background: color_client_focused_background
+i3-wm.client.focused.color.text: color_client_focused_text
+i3-wm.client.focused.color.indicator: color_client_focused_indicator
+i3-wm.client.focused.color.child_border: color_client_focused_child_border
+
+i3-wm.client.focused_inactive.color.border: color_client_focused_inactive_border
+i3-wm.client.focused_inactive.color.background: color_client_focused_inactive_background
+i3-wm.client.focused_inactive.color.text: color_client_focused_inactive_text
+i3-wm.client.focused_inactive.color.indicator: color_client_focused_inactive_indicator
+i3-wm.client.focused_inactive.color.child_border: color_client_focused_inactive_child_border
+
+i3-wm.client.unfocused.color.border: color_client_unfocused_border
+i3-wm.client.unfocused.color.background: color_client_unfocused_background
+i3-wm.client.unfocused.color.text: color_client_unfocused_text
+i3-wm.client.unfocused.color.indicator: color_client_unfocused_indicator
+i3-wm.client.unfocused.color.child_border: color_client_unfocused_child_border
+
+i3-wm.client.urgent.color.border: color_client_urgent_border
+i3-wm.client.urgent.color.background: color_client_urgent_background
+i3-wm.client.urgent.color.text: color_client_urgent_text
+i3-wm.client.urgent.color.indicator: color_client_urgent_indicator
+i3-wm.client.urgent.color.child_border: color_client_urgent_child_border
+
+i3-wm.window.border.style: i3wm_window_border_style
+i3-wm.window.border.size: i3wm_window_border_size
+i3-wm.floatingwindow.border.style: i3wm_floatingwindow_border_style
+i3-wm.floatingwindow.border.size: i3wm_floatingwindow_border_size
+i3-wm.gaps.inner.size: i3wm_gaps_inner_size
+i3-wm.gaps.outer.size: i3wm_gaps_outer_size
+
+i3-wm.workspace.01.name: 1
+i3-wm.workspace.02.name: 2
+i3-wm.workspace.03.name: 3
+i3-wm.workspace.04.name: 4
+i3-wm.workspace.05.name: 5
+i3-wm.workspace.06.name: 6
+i3-wm.workspace.07.name: 7
+i3-wm.workspace.08.name: 8
+i3-wm.workspace.09.name: 9
+i3-wm.workspace.10.name: 10
+i3-wm.workspace.11.name: 11
+i3-wm.workspace.12.name: 12
+i3-wm.workspace.13.name: 13
+i3-wm.workspace.14.name: 14
+i3-wm.workspace.15.name: 15
+i3-wm.workspace.16.name: 16
+i3-wm.workspace.17.name: 17
+i3-wm.workspace.18.name: 18
+i3-wm.workspace.19.name: 19
