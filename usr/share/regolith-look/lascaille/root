@@ -43,7 +43,7 @@ regolith.lockscreen.wallpaper.options: zoom
 
 !-- *Or* specify a color
 
-regolith.lockscreen.wallpaper.color.primary: #323A4C
+regolith.lockscreen.wallpaper.color.primary:
 
 !-- If specifying a primary color, optional additional settings
 

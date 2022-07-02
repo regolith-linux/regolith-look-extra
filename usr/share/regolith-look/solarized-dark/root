@@ -15,6 +15,7 @@ regolith.look: solarized-dark
 ! -- Specify either a complete file path to an image
 
 regolith.wallpaper.file: /usr/share/regolith-look/solarized-dark/cojdev_github_io-lowpoly.png
+regolith.wallpaper.options: zoom
 
 !-- *Or* specify a color
 
@@ -24,6 +25,27 @@ regolith.wallpaper.color.primary:
 
 regolith.wallpaper.color.secondary:
 regolith.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper 
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/solarized-dark/cojdev_github_io-lowpoly.png
+regolith.lockscreen.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
 
 ! --------------------------------------------
 ! -- Theme elements
