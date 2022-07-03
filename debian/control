@@ -108,3 +108,16 @@ Depends: ${misc:Depends},
 Provides: regolith-look
 Description: i3 inspired look
  A look intended to match the default i3 experience
+
+Package: regolith-look-lascaille
+Architecture: any
+Depends: ${misc:Depends},
+  ayu-theme,
+  papirus-icon-theme,
+  fonts-nerd-font-bitstreamverasansmono,
+  regolith-look-default
+Provides: regolith-look
+Description: i3 inspired look
+ A look intended to match the default i3 experience
+
+papirus-icon-theme
