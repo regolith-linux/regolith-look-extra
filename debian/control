@@ -119,5 +119,3 @@ Depends: ${misc:Depends},
 Provides: regolith-look
 Description: i3 inspired look
  A look intended to match the default i3 experience
-
-papirus-icon-theme
