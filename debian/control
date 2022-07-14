@@ -56,7 +56,7 @@ Description: Solarized Dark look for Regolith
 Package: regolith-look-nevil
 Architecture: any
 Depends: ${misc:Depends},
-  arc-icon-theme,
+  moka-icon-theme,
   fonts-nerd-font-mononoki,
   whitesur-gtk-theme,
   picom,
