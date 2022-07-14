@@ -98,6 +98,17 @@ Provides: regolith-look
 Description: User contributed Ayu theme
  Dark themed look with Hack font, arc icon theme, and ayu GTK theme.
 
+Package: regolith-look-ayu-mirage
+Architecture: any
+Depends: ${misc:Depends},
+  ayu-theme,
+  fonts-nerd-font-hack,
+  arc-icon-theme,
+  regolith-look-default
+Provides: regolith-look
+Description: User contributed Ayu Mirage theme
+ Dark themed look with Hack font, arc icon theme, and ayu-mirage-dark GTK theme.
+
 Package: regolith-look-i3-default
 Architecture: any
 Depends: ${misc:Depends},
