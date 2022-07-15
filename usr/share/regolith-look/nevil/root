@@ -16,12 +16,6 @@ gtk.theme_name: WhiteSur-light
 gtk.icon_theme_name: Moka
 
 ! --------------------------------------------
-! -- Picom Compositor Config
-! --------------------------------------------
-
-i3-wm.program.compositor: /usr/share/regolith-look/nevil/compositor-init
-
-! --------------------------------------------
 ! -- Fonts
 ! --------------------------------------------
 
@@ -99,6 +93,14 @@ regolith.lockscreen.wallpaper.color.primary: color_wallpaper
 
 regolith.lockscreen.wallpaper.color.secondary:
 regolith.lockscreen.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Compositor Config
+! --------------------------------------------
+
+regolith.compositor.picom.config: usr/share/regolith-look/nevil/picom.conf
+! -- Other compositor configs may be specified as desired:
+! -- regolith.compositor.compton.config
 
 ! --------------------------------------------
 ! -- Component resources

@@ -55,10 +55,12 @@ gtk.theme_name: Adwaita-dark
 gtk.icon_theme_name: Adwaita
 
 ! --------------------------------------------
-! -- Picom Compositor Config
+! -- Compositor Config
 ! --------------------------------------------
 
-i3-wm.program.compositor: /usr/share/regolith-look/i3-default/compositor-init
+regolith.compositor.picom.config: usr/share/regolith-look/i3-default/picom.conf
+! -- Other compositor configs may be specified as desired:
+! -- regolith.compositor.compton.config
 
 ! --------------------------------------------
 ! -- Fonts

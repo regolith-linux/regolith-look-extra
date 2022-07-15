@@ -55,10 +55,12 @@ gtk.theme_name: Ayu-Mirage-Dark
 gtk.icon_theme_name: Arc
 
 ! --------------------------------------------
-! -- Picom Compositor Config
+! -- Compositor Config
 ! --------------------------------------------
 
-i3-wm.program.compositor: /usr/share/regolith-look/ayu-mirage/compositor-init
+regolith.compositor.picom.config: usr/share/regolith-look/ayu-mirage/picom.conf
+! -- Other compositor configs may be specified as desired:
+! -- regolith.compositor.compton.config
 
 ! --------------------------------------------
 ! -- Fonts
