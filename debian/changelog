@@ -1,3 +1,16 @@
+regolith-look-extra (0.8.2) focal; urgency=medium
+
+  [ Brian Ballantine ]
+  * Changed default nevil icon theme to Moka
+
+  [ Matt Fisher ]
+  * Remove picom as a dependency of Nord and Nevil looks
+
+  [ Ken Gilmer ]
+  * Decouple picom from looks
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 15 Jul 2022 07:39:14 -0700
+
 regolith-look-extra (0.8.1) focal; urgency=medium
 
   [ Ken Gilmer ]
