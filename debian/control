@@ -13,7 +13,6 @@ Depends: ${misc:Depends},
   arc-icon-theme,
   fonts-nerd-font-robotomono,
   nordic,
-  picom,
   regolith-look-default
 Provides: regolith-look-2
 Description: Nord look for Regolith
@@ -59,7 +58,6 @@ Depends: ${misc:Depends},
   moka-icon-theme,
   fonts-nerd-font-mononoki,
   whitesur-gtk-theme,
-  picom,
   regolith-look-default
 Provides: regolith-look-2
 Description: A light look for Regolith
