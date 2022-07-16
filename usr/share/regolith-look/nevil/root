@@ -98,7 +98,7 @@ regolith.lockscreen.wallpaper.color.shading.type:
 ! -- Compositor Config
 ! --------------------------------------------
 
-regolith.compositor.picom.config: usr/share/regolith-look/nevil/picom.conf
+regolith.compositor.picom.config: /usr/share/regolith-look/nevil/picom.conf
 ! -- Other compositor configs may be specified as desired:
 ! -- regolith.compositor.compton.config
 

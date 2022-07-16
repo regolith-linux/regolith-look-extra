@@ -58,7 +58,7 @@ gtk.icon_theme_name: Arc
 ! -- Compositor Config
 ! --------------------------------------------
 
-regolith.compositor.picom.config: usr/share/regolith-look/nord/picom.conf
+regolith.compositor.picom.config: /usr/share/regolith-look/nord/picom.conf
 ! -- Other compositor configs may be specified as desired:
 ! -- regolith.compositor.compton.config
 
