@@ -1,3 +1,9 @@
+regolith-look-extra (0.8.4) focal; urgency=medium
+
+  * Fix package metadata for regolith-look-2 virtual package, found by Matt Fischer
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 17 Jul 2022 17:17:52 -0700
+
 regolith-look-extra (0.8.3) focal; urgency=medium
 
   [ Ken Gilmer ]
