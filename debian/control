@@ -70,7 +70,7 @@ Depends: ${misc:Depends},
   fonts-nerd-font-robotomono,
   moka-icon-theme,
   regolith-look-default
-Provides: regolith-look
+Provides: regolith-look-2
 Description: User contributed Dracula theme
  Colors based on https://draculatheme.com/gtk
 
@@ -81,7 +81,7 @@ Depends: ${misc:Depends},
   fonts-nerd-font-hack,
   arc-icon-theme,
   regolith-look-default
-Provides: regolith-look
+Provides: regolith-look-2
 Description: User contributed Ayu theme
  Light themed look with Hack font, arc icon theme, and ayu GTK theme.
 
@@ -92,7 +92,7 @@ Depends: ${misc:Depends},
   fonts-nerd-font-hack,
   arc-icon-theme,
   regolith-look-default
-Provides: regolith-look
+Provides: regolith-look-2
 Description: User contributed Ayu theme
  Dark themed look with Hack font, arc icon theme, and ayu GTK theme.
 
@@ -103,7 +103,7 @@ Depends: ${misc:Depends},
   fonts-nerd-font-hack,
   arc-icon-theme,
   regolith-look-default
-Provides: regolith-look
+Provides: regolith-look-2
 Description: User contributed Ayu Mirage theme
  Dark themed look with Hack font, arc icon theme, and ayu-mirage-dark GTK theme.
 
@@ -114,7 +114,7 @@ Depends: ${misc:Depends},
   fonts-nerd-font-bitstreamverasansmono,
   adwaita-icon-theme,
   regolith-look-default
-Provides: regolith-look
+Provides: regolith-look-2
 Description: i3 inspired look
  A look intended to match the default i3 experience
 
@@ -125,6 +125,6 @@ Depends: ${misc:Depends},
   papirus-icon-theme,
   fonts-nerd-font-bitstreamverasansmono,
   regolith-look-default
-Provides: regolith-look
+Provides: regolith-look-2
 Description: i3 inspired look
  A look intended to match the default i3 experience
