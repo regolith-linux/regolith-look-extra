@@ -13,7 +13,7 @@ Depends: ${misc:Depends},
   arc-icon-theme,
   fonts-nerd-font-robotomono,
   nordic,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: Nord look for Regolith
  Regolith Look with Nord color scheme, Arc icons, Roboto font, and Nordic GTK theme
@@ -24,7 +24,7 @@ Depends: ${misc:Depends},
   arc-icon-theme,
   ayu-theme,
   fonts-nerd-font-sourcecodepro,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: A very dark and minimalist theme for Regolith
  Regolith Look with dark color scheme, Arc icons, Source Code Pro font, and Ayu GTK theme
@@ -35,7 +35,7 @@ Depends: ${misc:Depends},
   gruvbox-gtk,
   moka-icon-theme,
   fonts-nerd-font-cousine,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: Gruvbox look for Regolith
  Regolith Look with Gruvbox color scheme, Moka icons, Cousine font, and gruvbox-gtk GTK theme
@@ -47,7 +47,7 @@ Depends: ${misc:Depends},
   arc-icon-theme,
   solarc-theme,
   fonts-nerd-font-meslo,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: Solarized Dark look for Regolith
  Regolith Look with Solarized dark color scheme, Arc icons, Meslo font, and solarc GTK theme
@@ -58,7 +58,7 @@ Depends: ${misc:Depends},
   moka-icon-theme,
   fonts-nerd-font-mononoki,
   whitesur-gtk-theme,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: A light look for Regolith
  Regolith Look with Ayu color scheme, Arc icons, Mononoki font, and WhiteSur GTK theme
@@ -69,7 +69,7 @@ Depends: ${misc:Depends},
   dracula-gtk,
   fonts-nerd-font-robotomono,
   moka-icon-theme,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: User contributed Dracula theme
  Colors based on https://draculatheme.com/gtk
@@ -80,7 +80,7 @@ Depends: ${misc:Depends},
   ayu-theme,
   fonts-nerd-font-hack,
   arc-icon-theme,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: User contributed Ayu theme
  Light themed look with Hack font, arc icon theme, and ayu GTK theme.
@@ -91,7 +91,7 @@ Depends: ${misc:Depends},
   ayu-theme,
   fonts-nerd-font-hack,
   arc-icon-theme,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: User contributed Ayu theme
  Dark themed look with Hack font, arc icon theme, and ayu GTK theme.
@@ -102,7 +102,7 @@ Depends: ${misc:Depends},
   ayu-theme,
   fonts-nerd-font-hack,
   arc-icon-theme,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: User contributed Ayu Mirage theme
  Dark themed look with Hack font, arc icon theme, and ayu-mirage-dark GTK theme.
@@ -113,7 +113,7 @@ Depends: ${misc:Depends},
   gnome-themes-extra-data,
   fonts-nerd-font-bitstreamverasansmono,
   adwaita-icon-theme,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: i3 inspired look
  A look intended to match the default i3 experience
@@ -124,7 +124,7 @@ Depends: ${misc:Depends},
   ayu-theme,
   papirus-icon-theme,
   fonts-nerd-font-bitstreamverasansmono,
-  regolith-look-default
+  regolith-look-default-loader
 Provides: regolith-look-2
 Description: i3 inspired look
  A look intended to match the default i3 experience
