@@ -6,13 +6,9 @@
 #define i3wm_gaps_outer_size             0
 #define i3wm_bar_position                bottom
 
-#define Q(x) #x
-#define QUOTE(x) Q(x)
-#define glyph_font QUOTE(gtk_monospace_font_name)
-#define glyph typeface_bar_glyph_workspace
-
 ilia.stylesheet: /usr/share/regolith-look/i3-default/ilia.css
 
+i3-wm.bar.font: gtk_monospace_font_name
 i3-wm.bar.position: i3wm_bar_position
 i3-wm.bar.background.color: color_bar_background
 i3-wm.bar.statusline.color: color_bar_statusline
