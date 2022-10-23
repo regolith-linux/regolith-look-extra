@@ -1,3 +1,9 @@
+regolith-look-extra (0.8.8) focal; urgency=medium
+
+  * Fix missing color specs
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 23 Oct 2022 11:14:04 -0700
+
 regolith-look-extra (0.8.6) focal; urgency=medium
 
   * Simplify font spec in i3 workspace label. Allow xres override of bar font.
