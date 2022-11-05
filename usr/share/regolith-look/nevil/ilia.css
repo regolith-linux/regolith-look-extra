@@ -2,6 +2,11 @@
   margin: 4px;
 }
 
+window {
+  border-style: solid;
+  border-width: 1px;
+}
+
 .filter_entry {
   border: none;
   background: none;
