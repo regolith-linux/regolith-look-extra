@@ -1,9 +1,9 @@
 .root_box {
-  margin: 8px;
+  margin: 2px;
 }
 
 window {
-  border-style: dotted;
+  border-style: solid;
   border-width: 1px;
 }
 
