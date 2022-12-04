@@ -1,3 +1,9 @@
+regolith-look-extra (0.8.12) focal; urgency=medium
+
+  * Misc tweaks to extra looks
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 04 Dec 2022 11:59:32 -0800
+
 regolith-look-extra (0.8.11) focal; urgency=medium
 
   * Add border around ilia dialog for better contrast
