@@ -80,7 +80,7 @@ gtk.monospace_font_name: gtk_monospace_font_name
 
 ! Nord colors
 #define color_base03   #2E3440
-#define color_base02   #3B4252
+#define color_base02   #2E3440
 #define color_base01   #434C5E
 #define color_base00   #7B8394
 #define color_base0    #D8DEE9
