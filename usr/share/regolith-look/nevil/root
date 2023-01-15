@@ -107,7 +107,7 @@ regolith.compositor.picom.config: /usr/share/regolith-look/nevil/picom.conf
 ! --------------------------------------------
 
 #include "/usr/share/regolith-look/nevil/i3xrocks"
-#include "/usr/share/regolith-look/nevil/i3-wm"
+#include "/usr/share/regolith-look/nevil/wm"
 #include "/usr/share/regolith-look/nevil/gnome-terminal"
 
 ! --------------------------------------------

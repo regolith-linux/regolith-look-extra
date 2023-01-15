@@ -103,7 +103,7 @@ gtk.monospace_font_name: gtk_monospace_font_name
 ! --------------------------------------------
 
 #include "/usr/share/regolith-look/ayu-dark/i3xrocks"
-#include "/usr/share/regolith-look/ayu-dark/i3-wm"
+#include "/usr/share/regolith-look/ayu-dark/wm"
 #include "/usr/share/regolith-look/ayu-dark/gnome-terminal"
 
 ! --------------------------------------------
