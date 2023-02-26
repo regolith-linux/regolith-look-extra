@@ -1,3 +1,19 @@
+regolith-look-extra (0.9.0) focal; urgency=medium
+
+  [ Matt Fisher ]
+  * Cleanup deprecated picom options
+  * Use darker color for nord base02
+  * Revert change to original theme palette
+  * Style unfocused/inactive tabs the same way as inactive workspaces
+  * Add README placeholders for testing workflow
+  * Lighten borders of inactive/unfocused tabs
+
+  [ Ken Gilmer ]
+  * Refactor xres namespace to be x11 agnostic.  i3-wm -> wm
+  * Remove i3 from wm filename
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 26 Feb 2023 10:28:14 -0800
+
 regolith-look-extra (0.8.12) focal; urgency=medium
 
   * Misc tweaks to extra looks
