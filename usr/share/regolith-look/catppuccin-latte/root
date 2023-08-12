@@ -1,0 +1,125 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: catppuccin-latte
+
+! --------------------------------------------
+! -- Wallpaper
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file: /usr/share/regolith-look/catppuccin-latte/latte.png
+regolith.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/catppuccin-latte/latte.png
+regolith.lockscreen.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Catppuccin-Latte-Standard-Lavender-Light
+gtk.icon_theme_name: Catppuccin-Latte
+
+! --------------------------------------------
+! -- Compositor Config
+! --------------------------------------------
+
+regolith.compositor.picom.config: /usr/share/regolith-look/catppuccin-latte/picom.conf
+! -- Other compositor configs may be specified as desired:
+! -- regolith.compositor.compton.config
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name RobotoMono Nerd Font 12
+#define gtk_document_font_name Sans 12
+#define gtk_monospace_font_name RobotoMono Nerd Font 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+#define color_rosewater     #dc8a78
+#define color_flamingo      #dd7878
+#define color_pink          #ea76cb
+#define color_mauve         #8839ef
+#define color_red           #d20f39
+#define color_maroon        #e64553
+#define color_peach         #fe640b
+#define color_yellow        #df8e1d
+#define color_green         #40a02b
+#define color_teal          #179299
+#define color_sky           #04a5e5
+#define color_sapphire      #209fb5
+#define color_blue          #1e66f5
+#define color_lavender      #7287fd
+#define color_text          #4c4f69
+#define color_subtext1      #5c5f77
+#define color_subtext0      #6c6f85
+#define color_overlay2      #7c7f93
+#define color_overlay1      #8c8fa1
+#define color_overlay0      #9ca0b0
+#define color_surface2      #acb0be
+#define color_surface1      #bcc0cc
+#define color_surface0      #ccd0da
+#define color_base          #eff1f5
+#define color_mantle        #e6e9ef
+#define color_crust         #dce0e8
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/catppuccin-latte/i3xrocks"
+#include "/usr/share/regolith-look/catppuccin-latte/i3-wm"
+#include "/usr/share/regolith-look/catppuccin-latte/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh

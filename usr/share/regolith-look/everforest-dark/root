@@ -1,0 +1,122 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: everforest-dark
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file: /usr/share/regolith-look/everforest-dark/everforest-dark.jpg
+regolith.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type: 
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper 
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/everforest-dark/everforest-dark.jpg
+regolith.lockscreen.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Everforest-Dark
+gtk.icon_theme_name: Everforest-Dark
+
+! --------------------------------------------
+! -- Compositor Config
+! --------------------------------------------
+
+regolith.compositor.picom.config: /usr/share/regolith-look/everforest-dark/picom.conf
+! -- Other compositor configs may be specified as desired:
+! -- regolith.compositor.compton.config
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name Cousine Nerd Font 12
+#define gtk_document_font_name Sans 12
+#define gtk_monospace_font_name Cousine Nerd Font 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! Everforest colors
+#define color_bg_dim        #232A2E
+#define color_bg0           #2D353B
+#define color_bg1           #343F44
+#define color_bg2           #3D484D
+#define color_bg3           #475258
+#define color_bg4           #4F585E
+#define color_bg5           #56635f
+#define color_bg_visual     #543A48
+#define color_bg_red        #514045
+#define color_bg_green      #425047
+#define color_bg_blue       #3A515D
+#define color_bg_yellow     #4D4C43
+#define color_fg            #D3C6AA
+#define color_red           #E67E80
+#define color_orange        #E69875
+#define color_yellow        #DBBC7F
+#define color_green         #A7C080
+#define color_aqua          #83C092
+#define color_blue          #7FBBB3
+#define color_purple        #D699B6
+#define color_grey0         #7A8478
+#define color_grey1         #859289
+#define color_grey2         #9DA9A0
+#define color_statusline1   #A7C080
+#define color_statusline2   #D3C6AA
+#define color_statusline3   #E67E80
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/everforest-dark/i3xrocks"
+#include "/usr/share/regolith-look/everforest-dark/i3-wm"
+#include "/usr/share/regolith-look/everforest-dark/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh
