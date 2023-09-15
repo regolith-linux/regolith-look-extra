@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="16"
+   height="16"
+   id="svg4060">
+  <defs
+     id="defs4062">
+    <linearGradient
+       xlink:href="#outerBackgroundGradient"
+       id="linearGradient4041"
+       gradientUnits="userSpaceOnUse"
+       x1="8"
+       y1="16"
+       x2="8"
+       y2="0" />
+    <linearGradient
+       id="outerBackgroundGradient">
+      <stop
+         style="stop-color:#bd251d;stop-opacity:1;"
+         offset="0"
+         id="stop3864-8-6" />
+      <stop
+         style="stop-color:#e22c1e;stop-opacity:1;"
+         offset="1"
+         id="stop3866-9-1" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata4065">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <rect
+       style="color:#000000;fill:url(#linearGradient4041);fill-opacity:1.0;fill-rule:nonzero;stroke:none;stroke-width:0.99999994000000003;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect5505-21-7"
+       y="0.5"
+       x="0.50437498"
+       ry="1.1538461"
+       rx="1.1538461"
+       height="15"
+       width="15" />
+    <rect
+       width="15"
+       height="15"
+       rx="1.1538461"
+       ry="1.1538461"
+       x="0.50437498"
+       y="0.5"
+       id="rect3018"
+       style="color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#760000;stroke-width:0.99999994000000003;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-opacity:1;opacity:0.60999999999999999" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994000000003;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:0.1"
+       d="M 1.65625 1 C 1.2853706 1 1 1.2853706 1 1.65625 L 1 2.65625 C 1 2.2853706 1.2853706 2 1.65625 2 L 14.34375 2 C 14.714629 2 15 2.2853706 15 2.65625 L 15 1.65625 C 15 1.2853706 14.714629 1 14.34375 1 L 1.65625 1 z "
+       id="rect3788" />
+    <path
+       id="path3805"
+       d="M 1.78125,16 C 1.4103706,16 1.125,15.714629 1.125,15.34375 l 0,-1 C 1.125,14.714629 1.4103706,15 1.78125,15 l 12.6875,0 c 0.370879,0 0.65625,-0.285371 0.65625,-0.65625 l 0,1 C 15.125,15.714629 14.839629,16 14.46875,16 l -12.6875,0 z"
+       style="opacity:0.3;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994000000003;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+  <g
+     id="layer2"
+     style="display:inline">
+    <path
+       id="path4067"
+       d="m 8.96875,3.5935 -1.875,2.65625 -4.5,-2.0625 2.125,3.375 -1.96875,0.25 1.875,1.125 -2.625,1.875 3.125,0.21875 -0.71875,3.375 3,-1.8125 1.78125,1.8125 0.65625,-2.21875 3.5625,1 -2.5625,-3.0625 L 14,9.5935 11,8.406 13.40625,5.99975 9.8125,6.5935 l -0.84375,-3 z M 7,6.99975 l 2,0 0,3 -2,0 0,-3 z m 0,4 2,0 0,1 -2,0 0,-1 z"
+       style="opacity:0.3;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline;enable-background:new"
+       d="m 8.96875,2.59375 -1.875,2.65625 -4.5,-2.0625 2.125,3.375 L 2.75,6.8125 4.625,7.9375 2,9.8125 l 3.125,0.21875 -0.71875,3.375 3,-1.8125 1.78125,1.8125 0.65625,-2.21875 3.5625,1 L 10.84375,9.125 14,8.59375 11,7.40625 13.40625,5 9.8125,5.59375 l -0.84375,-3 z M 7,6 9,6 9,9 7,9 7,6 z m 0,4 2,0 0,1 -2,0 0,-1 z"
+       id="path4363" />
+  </g>
+</svg>

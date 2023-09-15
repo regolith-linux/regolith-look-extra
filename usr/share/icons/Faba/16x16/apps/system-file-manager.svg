@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg5400"
+   height="16px"
+   width="16px">
+  <defs
+     id="defs5402">
+    <clipPath
+       id="clipPath11908-0"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#4e9a06;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+         d="m 432,129 0,1 0,3 0,2 0,7.5 c 0,0 0,1.5 1.5,1.5 l 13,0 c 0,0 1.5,0 1.5,-1.5 l 0,-7.5 0,-2 0,-1 0,-1 -1,0 -5,0 c -0.66667,0 -0.78125,-0.21875 -1.28125,-0.71875 C 440.21875,129.78125 439.33333,129 438,129 l -5,0 -1,0 z"
+         id="path11910-2" />
+    </clipPath>
+    <linearGradient
+       y2="130.99973"
+       x2="440"
+       y1="126.99972"
+       x1="440"
+       gradientTransform="translate(-432,-124)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient7396"
+       xlink:href="#linearGradient11359-1" />
+    <linearGradient
+       y2="275.99973"
+       x2="352"
+       y1="227.99973"
+       x1="352"
+       gradientTransform="matrix(0.38091417,0,0,0.38091417,-116.93905,-87.84701)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient7398"
+       xlink:href="#linearGradient4968-9" />
+    <linearGradient
+       id="linearGradient11359-1">
+      <stop
+         id="stop11361-8"
+         offset="0"
+         style="stop-color:#f5f5f5;stop-opacity:1;" />
+      <stop
+         id="stop11363-7"
+         offset="1"
+         style="stop-color:#d7d7d7;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4968-9">
+      <stop
+         style="stop-color:#f7f7f7;stop-opacity:1;"
+         offset="0"
+         id="stop4970-5" />
+      <stop
+         id="stop3794"
+         offset="0.66666681"
+         style="stop-color:#dedede;stop-opacity:1;" />
+      <stop
+         id="stop4972-6"
+         offset="1"
+         style="stop-color:#c6c6c6;stop-opacity:1;" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata5405">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:url(#linearGradient7396);fill-opacity:1.0;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m 0.50000014,1.49972 0,0.5 0,4.5 14.99999986,0 0,-2.5 0,-0.5 -0.5,0 -5,0 c -0.3880199,0 -0.7106699,-0.0767 -0.9687499,-0.25 -0.25808,-0.17334 -0.41853,-0.38728 -0.65625,-0.625 -0.47545,-0.47545 -1.23698,-1.125 -2.375,-1.125 l -5,0 -0.49999996,0 z"
+       id="path4938-1" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:url(#linearGradient7398);fill-opacity:1.0;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m 0.50000014,5.49972 0,9 c 0,0 -0.003,0.27549 0.125,0.53125 0.12792,0.25576 0.29167,0.46875 0.87499996,0.46875 l 12.9999999,0 c 0,0 0.27551,0.003 0.53125,-0.125 C 15.28699,15.24685 15.5,15.08305 15.5,14.49972 l 0,-9 -14.99999986,0 z"
+       id="path11441" />
+    <rect
+       style="opacity:0.41000001;color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect11912"
+       width="14"
+       height="1"
+       x="1"
+       y="4.9997253" />
+    <path
+       id="path11904"
+       d="m 432,129 0,1 0,3 0,2 0,7.5 c 0,0 0,1.5 1.5,1.5 l 13,0 c 0,0 1.5,0 1.5,-1.5 l 0,-7.5 0,-2 0,-1 0,-1 -1,0 -5,0 c -0.66667,0 -0.78125,-0.21875 -1.28125,-0.71875 C 440.21875,129.78125 439.33333,129 438,129 l -5,0 -1,0 z"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.41000001;color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       clip-path="url(#clipPath11908-0)"
+       transform="translate(-432,-128.00028)" />
+    <path
+       id="path7434"
+       d="M 1,6 1,7 15,7 15,6 1,6 z"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.1;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+  </g>
+</svg>

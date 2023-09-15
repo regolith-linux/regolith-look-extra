@@ -61,8 +61,8 @@ gtk.monospace_font_name: gtk_monospace_font_name
 
 ! -- Specify either a complete file path to an image
 
-regolith.wallpaper.file:
-regolith.wallpaper.options:
+regolith.wallpaper.file: /usr/share/regolith-look/nevil/nevil.jpg
+regolith.wallpaper.options: zoom
 
 !-- *Or* specify a color
 
@@ -82,12 +82,12 @@ regolith.wallpaper.color.shading.type:
 ! -- Specify either a complete file path to an image
 ! -- and (optionally) options how to display the file
 
-regolith.lockscreen.wallpaper.file:
-regolith.lockscreen.wallpaper.options:
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/nevil/nevil.jpg
+regolith.lockscreen.wallpaper.options: zoom
 
 !-- *Or* specify a color
 
-regolith.lockscreen.wallpaper.color.primary: color_wallpaper
+regolith.lockscreen.wallpaper.color.primary: 
 
 !-- If specifying a primary color, optional additional settings
 

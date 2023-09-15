@@ -115,7 +115,7 @@ regolith.compositor.picom.config: /usr/share/regolith-look/enzyme42/picom.conf
 ! --------------------------------------------
 
 #include "/usr/share/regolith-look/enzyme42/i3xrocks"
-#include "/usr/share/regolith-look/enzyme42/i3-wm"
+#include "/usr/share/regolith-look/enzyme42/wm"
 #include "/usr/share/regolith-look/enzyme42/gnome-terminal"
 
 ! --------------------------------------------

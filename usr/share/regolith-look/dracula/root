@@ -14,7 +14,7 @@ regolith.look: dracula
 
 ! -- Specify either a complete file path to an image
 
-regolith.wallpaper.file: /usr/share/regolith-look/dracula/dracula-regolith.png
+regolith.wallpaper.file: /usr/share/regolith-look/dracula/dracula.png
 regolith.wallpaper.options: zoom
 
 !-- *Or* specify a color
@@ -35,7 +35,7 @@ regolith.wallpaper.color.shading.type:
 ! -- Specify either a complete file path to an image
 ! -- and (optionally) options how to display the file
 
-regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/dracula/dracula-regolith.png
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/dracula/dracula.png
 regolith.lockscreen.wallpaper.options: zoom
 
 !-- *Or* specify a color

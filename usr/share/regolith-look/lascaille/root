@@ -17,7 +17,7 @@ regolith.look: lascaille
 ! -- Specify either a complete file path to an image
 ! -- and (optionally) options how to display the file
 
-regolith.wallpaper.file: /usr/share/regolith-look/lascaille/ESP_016895_1525_desktop.jpg
+regolith.wallpaper.file: /usr/share/regolith-look/lascaille/lascaille.jpg
 regolith.wallpaper.options: zoom
 
 !-- *Or* specify a color
@@ -38,7 +38,7 @@ regolith.wallpaper.color.shading.type:
 ! -- Specify either a complete file path to an image
 ! -- and (optionally) options how to display the file
 
-regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/lascaille/pia21972.png
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/lascaille/lascaille.jpg
 regolith.lockscreen.wallpaper.options: zoom
 
 !-- *Or* specify a color

@@ -4,7 +4,7 @@
 #define i3wm_floatingwindow_border_size  3
 #define i3wm_gaps_inner_size             5
 #define i3wm_gaps_outer_size             0
-#define i3wm_bar_position                bottom
+#define i3wm_bar_position                top
 
 #define Q(x) #x
 #define QUOTE(x) Q(x)
@@ -36,15 +36,15 @@ wm.client.focused.color.text: color_base3
 wm.client.focused.color.indicator: color_blue
 wm.client.focused.color.child_border: color_nord4
 
-wm.client.focused_inactive.color.border: color_base01
-wm.client.focused_inactive.color.background: color_base03
-wm.client.focused_inactive.color.text: color_base00
+wm.client.focused_inactive.color.border: color_base03
+wm.client.focused_inactive.color.background: color_base02
+wm.client.focused_inactive.color.text: color_base0
 wm.client.focused_inactive.color.indicator: color_base02
 wm.client.focused_inactive.color.child_border: color_base03
 
-wm.client.unfocused.color.border: color_base01
-wm.client.unfocused.color.background: color_base03
-wm.client.unfocused.color.text: color_base00
+wm.client.unfocused.color.border: color_base03
+wm.client.unfocused.color.background: color_base02
+wm.client.unfocused.color.text: color_base0
 wm.client.unfocused.color.indicator: color_base02
 wm.client.unfocused.color.child_border: color_base03
 

@@ -114,7 +114,7 @@ gtk.monospace_font_name: gtk_monospace_font_name
 ! --------------------------------------------
 
 #include "/usr/share/regolith-look/catppuccin-latte/i3xrocks"
-#include "/usr/share/regolith-look/catppuccin-latte/i3-wm"
+#include "/usr/share/regolith-look/catppuccin-latte/wm"
 #include "/usr/share/regolith-look/catppuccin-latte/gnome-terminal"
 
 ! --------------------------------------------

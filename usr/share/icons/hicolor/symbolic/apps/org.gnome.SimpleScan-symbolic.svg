@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg7384" width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata90">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Gnome Symbolic Icon Theme</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title id="title9167">Gnome Symbolic Icon Theme</title>
+ <g id="g1662" transform="matrix(.25 0 0 .25 -214.11 -429.84)" style="enable-background:new"></g>
+ <g id="g869" transform="translate(-22.106 1.5879)">
+  <g id="g193" transform="rotate(90 185.85 24.259)" style="enable-background:new">
+   <path id="rect1645" d="m161 176.66c0-1.4567 1.2034-2.6602 2.6602-2.6602h8.6797c1.4567 0 2.6602 1.2034 2.6602 2.6602v6.6797c0 1.4567-1.2034 2.6602-2.6602 2.6602h-8.6797c-1.4567 0-2.6602-1.2034-2.6602-2.6602zm2 0v6.6797c0 0.38334 0.27682 0.66016 0.66016 0.66016h8.6797c0.38334 0 0.66016-0.27682 0.66016-0.66016v-6.6797c0-0.38334-0.27682-0.66016-0.66016-0.66016h-8.6797c-0.38334 0-0.66016 0.27682-0.66016 0.66016z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;enable-background:accumulate;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;paint-order:normal;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+   <path id="path1647" d="m168.47 174.49a0.50005 0.50005 0 0 0-0.49023 0.50976l0.0312 10a0.50005 0.50005 0 1 0 1-4e-3l-0.0312-10a0.50005 0.50005 0 0 0-0.50977-0.50586z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;enable-background:accumulate;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;paint-order:normal;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+   <path id="path1649" d="m172 183-8 1e-5 -2e-5 -6 6-1e-5 2 2z" style="paint-order:normal"/>
+  </g>
+ </g>
+</svg>
