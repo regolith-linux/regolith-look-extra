@@ -14,12 +14,12 @@ regolith.look: ayu-mirage
 
 ! -- Specify either a complete file path to an image
 
-regolith.wallpaper.file:
-regolith.wallpaper.options:
+regolith.wallpaper.file: /usr/share/regolith-look/ayu-mirage/ayu-mirage.jpeg
+regolith.wallpaper.options: zoom
 
 !-- *Or* specify a color
 
-regolith.wallpaper.color.primary: #2c4162
+regolith.wallpaper.color.primary:
 
 !-- If specifying a primary color, optional additional settings
 
@@ -35,12 +35,12 @@ regolith.wallpaper.color.shading.type:
 ! -- Specify either a complete file path to an image
 ! -- and (optionally) options how to display the file
 
-regolith.lockscreen.wallpaper.file:
-regolith.lockscreen.wallpaper.options:
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/ayu-mirage/ayu-mirage.jpeg
+regolith.lockscreen.wallpaper.options: zoom
 
 !-- *Or* specify a color
 
-regolith.lockscreen.wallpaper.color.primary: #2c4162
+regolith.lockscreen.wallpaper.color.primary: 
 
 !-- If specifying a primary color, optional additional settings
 

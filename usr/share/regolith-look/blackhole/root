@@ -14,7 +14,7 @@ regolith.look: blackhole
 
 ! -- Specify either a complete file path to an image
 
-regolith.wallpaper.file: /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
+regolith.wallpaper.file: /usr/share/regolith-look/blackhole/blackhole.jpg
 regolith.wallpaper.options: zoom
 
 !-- *Or* specify a color
@@ -35,12 +35,12 @@ regolith.wallpaper.color.shading.type:
 ! -- Specify either a complete file path to an image
 ! -- and (optionally) options how to display the file
 
-regolith.lockscreen.wallpaper.file: /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/blackhole/blackhole.jpg
 regolith.lockscreen.wallpaper.options: zoom
 
 !-- *Or* specify a color
 
-regolith.lockscreen.wallpaper.color.primary:
+regolith.lockscreen.wallpaper.color.primary: 
 
 !-- If specifying a primary color, optional additional settings
 

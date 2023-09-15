@@ -1,0 +1,19 @@
+gnome.terminal.color0:    color_bg_dim
+gnome.terminal.color1:    color_red
+gnome.terminal.color2:    color_green
+gnome.terminal.color3:    color_yellow
+gnome.terminal.color4:    color_blue
+gnome.terminal.color5:    color_aqua
+gnome.terminal.color6:    color_purple
+gnome.terminal.color7:    color_fg
+gnome.terminal.color8:    color_bg_yellow
+gnome.terminal.color9:    color_red
+gnome.terminal.color10:   color_green
+gnome.terminal.color11:   color_yellow
+gnome.terminal.color12:   color_blue
+gnome.terminal.color13:   color_purple
+gnome.terminal.color14:   color_aqua
+gnome.terminal.color15:   color_bg2
+
+gnome.terminal.font:      gtk_monospace_font_name
+gnome.terminal.scrollbar: never

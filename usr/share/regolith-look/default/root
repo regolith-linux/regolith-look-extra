@@ -1,0 +1,119 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --
+! -- This is the root file of Xresource definition for the Regolith 2 default look.
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: default
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Adwaita-dark
+gtk.icon_theme_name: gnome
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name Bitstream Vera Sans 11
+#define gtk_document_font_name Sans 11
+#define gtk_monospace_font_name BitstreamVeraSansMono Nerd Font 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+! -- Adwaita colors - https://en.wikipedia.org/wiki/Adwaita_(design_language)
+
+! -- Darker, dark to light gradients
+#define color_dark_4   #2F2F2F
+#define color_dark_3   #393939
+#define color_dark_2   #9A9996
+#define color_dark_1   #B8B8B8
+
+! -- Light gradients
+#define color_light_4   #C0BFBC
+#define color_light_3   #DEDDDA
+#define color_light_2   #F6F5F4 
+#define color_light_1   #FFFFFF
+
+! -- Palette 
+#define color_yellow   #F6D32D
+#define color_orange   #FF7800
+#define color_red      #E01B24
+#define color_magenta  #75507B
+#define color_violet   #9141AC
+#define color_blue     #3584E4
+#define color_cyan     #95E6CB
+#define color_green    #33D17A
+#define color_brown    #986A44
+#define color_ltblue   #99C1F1
+#define color_ltgreen  #8FF0A4
+#define color_ltyellow #F9F06B
+#define color_ltcyan   #5CCFE6
+
+! --------------------------------------------
+! -- Wallpaper 
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.wallpaper.file: /usr/share/regolith-look/default/default.jpg
+regolith.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary: color_dark_1
+regolith.wallpaper.color.shading.type: vertical
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper 
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/default/default.jpg
+regolith.lockscreen.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary: 
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/default/i3xrocks"
+#include "/usr/share/regolith-look/default/wm"
+#include "/usr/share/regolith-look/default/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible 
+! -- for configuring UI from Xres values
+! -- NOTE: The following script path can be changed to support alternative look configurations
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh

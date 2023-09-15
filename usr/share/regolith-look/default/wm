@@ -1,0 +1,88 @@
+#define i3wm_window_border_style         pixel
+#define i3wm_floatingwindow_border_style pixel
+#define i3wm_window_border_size          2
+#define i3wm_floatingwindow_border_size  1
+#define i3wm_gaps_inner_size             5
+#define i3wm_gaps_outer_size             0
+#define i3wm_bar_position                bottom
+
+#define Q(x) #x
+#define QUOTE(x) Q(x)
+#define glyph typeface_bar_glyph_workspace
+
+ilia.stylesheet: /usr/share/regolith-look/default/ilia.css
+
+wm.bar.font: gtk_monospace_font_name
+wm.bar.position: i3wm_bar_position
+wm.bar.background.color: color_dark_3
+wm.bar.statusline.color: color_light_1
+wm.bar.separator.color: color_blue
+
+wm.bar.workspace.focused.border.color: color_light_4
+wm.bar.workspace.focused.background.color: color_dark_3
+wm.bar.workspace.focused.text.color: color_light_1
+
+wm.bar.workspace.active.border.color: color_dark_2
+wm.bar.workspace.active.background.color: color_dark_2
+wm.bar.workspace.active.text.color: color_dark_1
+
+wm.bar.workspace.inactive.border.color: color_dark_3
+wm.bar.workspace.inactive.background.color: color_dark_3
+wm.bar.workspace.inactive.text.color: color_light_2
+
+wm.bar.workspace.urgent.border.color: color_red
+wm.bar.workspace.urgent.background.color: color_red
+wm.bar.workspace.urgent.text.color: color_light_1
+
+wm.client.focused.color.border: color_dark_4
+wm.client.focused.color.background: color_dark_1
+wm.client.focused.color.text: color_light_1
+wm.client.focused.color.indicator: color_blue
+wm.client.focused.color.child_border: color_dark_1
+
+wm.client.focused_inactive.color.border: color_dark_3
+wm.client.focused_inactive.color.background: color_dark_2
+wm.client.focused_inactive.color.text: color_light_2
+wm.client.focused_inactive.color.indicator: color_dark_2
+wm.client.focused_inactive.color.child_border: color_dark_3
+
+wm.client.unfocused.color.border: color_dark_3
+wm.client.unfocused.color.background: color_dark_2
+wm.client.unfocused.color.text: color_light_2
+wm.client.unfocused.color.indicator: color_dark_2
+wm.client.unfocused.color.child_border: color_dark_3
+
+wm.client.urgent.color.border: color_dark_3
+wm.client.urgent.color.background: color_red
+wm.client.urgent.color.text: color_light_1
+wm.client.urgent.color.indicator: color_red
+wm.client.urgent.color.child_border: color_dark_3
+
+wm.window.border.style: i3wm_window_border_style
+wm.window.border.size: i3wm_window_border_size
+wm.floatingwindow.border.style: i3wm_floatingwindow_border_style
+wm.floatingwindow.border.size: i3wm_floatingwindow_border_size
+wm.gaps.inner.size: i3wm_gaps_inner_size
+wm.gaps.outer.size: i3wm_gaps_outer_size
+
+#define WORKSPACE_NAME(INDEX, COLOR, GLYPH) INDEX:<span> </span>INDEX <span foreground=COLOR>GLYPH</span><span> </span>
+
+wm.workspace.01.name: WORKSPACE_NAME(1, QUOTE(color_blue), glyph)
+wm.workspace.02.name: WORKSPACE_NAME(2, QUOTE(color_cyan), glyph)
+wm.workspace.03.name: WORKSPACE_NAME(3, QUOTE(color_green), glyph)
+wm.workspace.04.name: WORKSPACE_NAME(4, QUOTE(color_yellow), glyph)
+wm.workspace.05.name: WORKSPACE_NAME(5, QUOTE(color_orange), glyph)
+wm.workspace.06.name: WORKSPACE_NAME(6, QUOTE(color_red), glyph)
+wm.workspace.07.name: WORKSPACE_NAME(7, QUOTE(color_magenta), glyph)
+wm.workspace.08.name: WORKSPACE_NAME(8, QUOTE(color_violet), glyph)
+wm.workspace.09.name: WORKSPACE_NAME(9, QUOTE(color_brown), glyph)
+wm.workspace.10.name: WORKSPACE_NAME(10, QUOTE(color_blue), glyph)
+wm.workspace.11.name: WORKSPACE_NAME(11, QUOTE(color_cyan), glyph)
+wm.workspace.12.name: WORKSPACE_NAME(12, QUOTE(color_green), glyph)
+wm.workspace.13.name: WORKSPACE_NAME(13, QUOTE(color_yellow), glyph)
+wm.workspace.14.name: WORKSPACE_NAME(14, QUOTE(color_orange), glyph)
+wm.workspace.15.name: WORKSPACE_NAME(15, QUOTE(color_red), glyph)
+wm.workspace.16.name: WORKSPACE_NAME(16, QUOTE(color_magenta), glyph)
+wm.workspace.17.name: WORKSPACE_NAME(17, QUOTE(color_violet), glyph)
+wm.workspace.18.name: WORKSPACE_NAME(18, QUOTE(color_brown), glyph)
+wm.workspace.19.name: WORKSPACE_NAME(19, QUOTE(color_blue), glyph)

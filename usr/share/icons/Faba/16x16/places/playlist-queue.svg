@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg5400"
+   height="16px"
+   width="16px">
+  <defs
+     id="defs5402">
+    <linearGradient
+       id="linearGradient7223">
+      <stop
+         id="stop7225"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop7227"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="13.5"
+       x2="10"
+       y1="13.5"
+       x1="9"
+       id="linearGradient7229"
+       xlink:href="#linearGradient7223" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="13.5"
+       x2="10"
+       y1="13.5"
+       x1="9"
+       id="linearGradient7231"
+       xlink:href="#linearGradient7223" />
+  </defs>
+  <metadata
+     id="metadata5405">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <path
+       id="rect7356-3"
+       d="m 2.99959,2.99998 -2.1e-4,0.99998 10.00021,2e-5 L 12.9998,3 z"
+       style="color:#bebebe;fill:#555555;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+    <path
+       style="color:#bebebe;fill:#555555;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+       d="M 2.9998,5.99998 2.99959,6.99996 12.9998,6.99998 13.00001,6 z"
+       id="path6091-3" />
+    <path
+       id="path6094-6"
+       d="m 2.9998,9 -2.1e-4,0.99998 6.00028,0 L 9.00008,9 z"
+       style="color:#bebebe;fill:#555555;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+    <path
+       style="color:#bebebe;fill:#555555;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+       d="m 2.9998,11.99998 -2.1e-4,0.99998 4.00028,2e-5 L 7.00008,12 z"
+       id="path6097-0" />
+    <path
+       id="path6113-7"
+       d="m 10.00008,7.99995 0,2 0,2.09375 C 9.84576,12.0401 9.67267,12 9.50008,12 c -0.82843,0 -1.5,0.67157 -1.5,1.5 0,0.82843 0.67157,1.5 1.5,1.5 0.82843,0 1.5,-0.67157 1.5,-1.5 l 0,-3.5 3,0 0,2.09375 c -0.15432,-0.0536 -0.32741,-0.0937 -0.5,-0.0937 -0.82843,0 -1.5,0.67157 -1.5,1.5 0,0.82843 0.67157,1.5 1.5,1.5 0.82843,0 1.5,-0.67157 1.5,-1.5 l 0,-5.5 -1,0 -3,0 -1,0 z"
+       style="color:#000000;fill:#555555;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+    <path
+       transform="matrix(0,1,-1,0,23,4)"
+       d="m 10,13.5 a 0.5,0.5 0 1 1 -1,0 0.5,0.5 0 1 1 1,0 z"
+       id="path7219"
+       style="opacity:0.5;fill:url(#linearGradient7229);fill-opacity:1;stroke:none" />
+    <path
+       transform="matrix(0,1,-1,0,27,4)"
+       style="opacity:0.5;fill:url(#linearGradient7231);fill-opacity:1;stroke:none"
+       id="path7221"
+       d="m 10,13.5 a 0.5,0.5 0 1 1 -1,0 0.5,0.5 0 1 1 1,0 z" />
+    <path
+       id="path7233"
+       d="M 3 3 L 3 3.5 L 13 3.5 L 13 3 L 3 3 z M 3 6 L 3 6.5 L 13 6.5 L 13 6 L 3 6 z M 3 9 L 3 9.5 L 9 9.5 L 9 9 L 3 9 z M 3 12 L 3 12.5 L 7 12.5 L 7 12 L 3 12 z "
+       style="color:#bebebe;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;opacity:0.2" />
+    <rect
+       y="8"
+       x="10"
+       height="1"
+       width="5"
+       id="rect7245"
+       style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none" />
+  </g>
+</svg>

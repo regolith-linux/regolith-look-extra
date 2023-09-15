@@ -1,0 +1,93 @@
+#!/bin/bash
+
+set -Eeu -o pipefail
+
+# Note: net-traffic uses interval type 'repeat' so cannot use button events.
+# See https://github.com/vivien/i3blocks#interval
+
+# some default values for arguments"
+UP=${label_icon:-$(xrescat i3xrocks.label.up " up")}
+DN=${label_icon:-$(xrescat i3xrocks.label.dn " dn")}
+DLY=${DLY:-5}
+ERROR_DLY=${ERROR_DLY:-10}
+RT=${RT:-}
+
+# Padding the output to 5 characters to avoid jittering on the bar
+NUMFMT="numfmt --to iec --format %f --padding 5"
+
+# determine the net interface name, but only use one interface
+# there could be several default routes, if you have a VPN for example
+IF="${BLOCK_INSTANCE:-$(awk '$2 == 00000000 && $1 !~ /(ppp|tun|tap)/ { print $1; exit }' < /proc/net/route)}"
+
+IF_PATH="/sys/class/net/${IF}"
+
+if [ -d "${IF_PATH}/bonding" ]; then
+  # this is a bond, use the active slave's interface
+  IF="$(< "${IF_PATH}/bonding/active_slave")"
+  IF_PATH="/sys/class/net/${IF}"
+fi
+
+if [[ "$IF" == "" || ! -d "$IF_PATH" || ! -f "${IF_PATH}"/statistics/rx_bytes || ! -f "${IF_PATH}"/statistics/tx_bytes ]]; then 
+  sleep "${ERROR_DLY}"
+  exit 0
+fi
+
+if [ -d "${IF_PATH}/wireless" ]; then
+  NIC=${label_icon:-$(xrescat i3xrocks.label.wifi )}
+else
+  NIC=${label_icon:-$(xrescat i3xrocks.label.wired )}
+fi
+
+# read dev file and compute net usage
+RX1=$(cat "${IF_PATH}"/statistics/rx_bytes)
+TX1=$(cat "${IF_PATH}"/statistics/tx_bytes)
+
+sleep "${DLY}"
+
+RX2=$(cat "${IF_PATH}"/statistics/rx_bytes)
+TX2=$(cat "${IF_PATH}"/statistics/tx_bytes)
+
+RX_DIFF=$(echo "($RX2-$RX1)/$DLY" | bc)
+TX_DIFF=$(echo "($TX2-$TX1)/$DLY" | bc)
+RX=$(echo "${RX_DIFF}" | ${NUMFMT})
+TX=$(echo "${TX_DIFF}" | ${NUMFMT})
+AX=$(echo "($RX_DIFF+$TX_DIFF)" | bc | ${NUMFMT})
+
+# Add a B for bytes at the end if the string is missing a letter
+if ! [[ "${RX}" =~ [BKMG]$ ]]; then
+  RX="${RX#?}B"
+fi
+
+if ! [[ "${TX}" =~ [BKMG]$ ]]; then
+  TX="${TX#?}B"
+fi
+
+if ! [[ "${AX}" =~ [BKMG]$ ]]; then
+  AX="${AX#?}B"
+fi
+
+# span for text
+fspan() {
+  echo "<span font_desc=\"${VALUE_FONT}\" color=\"${VALUE_COLOR}\"> ${1}</span>"
+}
+
+# span for label/icon
+lspan() {
+  echo "<span font_desc=\"${VALUE_FONT}\" color=\"${LABEL_COLOR}\">${1}</span>"
+}
+
+# get font specifics from xresource file
+VALUE_COLOR=${color:-$(xrescat i3xrocks.value.color "#D8DEE9")}
+LABEL_COLOR=${label_color:-$(xrescat i3xrocks.label.color "#7B8394")}
+VALUE_FONT=${font:-$(xrescat i3xrocks.value.font "Source Code Pro Medium 13")}
+
+# output net usage using pango markup
+if [ "$RT" = "up" ]; then
+  echo "$(lspan "${NIC}")$(fspan "$TX")$(lspan "${UP}")"
+elif [ "$RT" = "down" ] || [ "$RT" = "dn" ]; then
+  echo "$(lspan "${NIC}")$(fspan "$RX")$(lspan "${DN}")"
+elif [ "$RT" = "total" ]; then
+  echo "$(lspan "${NIC}")$(fspan "$AX")"
+else
+  echo "$(lspan "${NIC}")$(fspan "$RX")$(lspan "${DN}")$(fspan "$TX")$(lspan "${UP}")"
+fi

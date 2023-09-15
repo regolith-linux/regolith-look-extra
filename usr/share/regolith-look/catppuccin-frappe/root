@@ -1,0 +1,121 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: catppuccin-frappe
+
+! --------------------------------------------
+! -- Wallpaper
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file: /usr/share/regolith-look/catppuccin-frappe/frappe.png
+regolith.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/catppuccin-frappe/frappe.png
+regolith.lockscreen.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Catppuccin-Frappe-Standard-Lavender-Dark
+gtk.icon_theme_name: Catppuccin-Frappe
+
+! --------------------------------------------
+! -- Compositor Config
+! --------------------------------------------
+
+regolith.compositor.picom.config: /usr/share/regolith-look/catppuccin-frappe/picom.conf
+! -- Other compositor configs may be specified as desired:
+! -- regolith.compositor.compton.config
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name RobotoMono Nerd Font 12
+#define gtk_document_font_name Sans 12
+#define gtk_monospace_font_name RobotoMono Nerd Font 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+#define color_rosewater     #f2d5cf
+#define color_flamingo      #eebebe
+#define color_pink          #f4b8e4
+#define color_mauve         #ca9ee6
+#define color_red           #e78284
+#define color_maroon        #ea999c
+#define color_peach         #ef9f76
+#define color_yellow        #e5c890
+#define color_green         #a6d189
+#define color_teal          #81c8be
+#define color_sky           #99d1db
+#define color_sapphire      #85c1dc
+#define color_blue          #8caaee
+#define color_lavender      #babbf1
+#define color_text          #c6d0f5
+#define color_subtext1      #b5bfe2
+#define color_subtext0      #a5adce
+#define color_overlay2      #949cbb
+#define color_overlay1      #838ba7
+#define color_overlay0      #737994
+#define color_surface2      #626880
+#define color_surface1      #51576d
+#define color_surface0      #414559
+#define color_base          #303446
+#define color_mantle        #292c3c
+#define color_crust         #232634
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/catppuccin-frappe/i3xrocks"
+#include "/usr/share/regolith-look/catppuccin-frappe/wm"
+#include "/usr/share/regolith-look/catppuccin-frappe/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh

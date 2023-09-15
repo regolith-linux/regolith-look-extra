@@ -1,0 +1,121 @@
+! --------------------------------------------
+! -- This file is in the Xresource file format
+! --------------------------------------------
+
+! --------------------------------------------
+! -- Look name
+! --------------------------------------------
+
+regolith.look: catppuccin-mocha
+
+! --------------------------------------------
+! -- Wallpaper
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file: /usr/share/regolith-look/catppuccin-mocha/mocha.png
+regolith.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/catppuccin-mocha/mocha.png
+regolith.lockscreen.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Theme elements
+! --------------------------------------------
+
+gtk.theme_name: Catppuccin-Mocha-Standard-Lavender-Dark
+gtk.icon_theme_name: Catppuccin-Mocha
+
+! --------------------------------------------
+! -- Compositor Config
+! --------------------------------------------
+
+regolith.compositor.picom.config: /usr/share/regolith-look/catppuccin-mocha/picom.conf
+! -- Other compositor configs may be specified as desired:
+! -- regolith.compositor.compton.config
+
+! --------------------------------------------
+! -- Fonts
+! --------------------------------------------
+
+#define gtk_font_name RobotoMono Nerd Font 12
+#define gtk_document_font_name Sans 12
+#define gtk_monospace_font_name RobotoMono Nerd Font 12
+
+gtk.font_name: gtk_font_name
+gtk.document_font_name: gtk_document_font_name
+gtk.monospace_font_name: gtk_monospace_font_name
+
+! --------------------------------------------
+! -- Colors
+! --------------------------------------------
+
+#define color_rosewater   #f5e0dc
+#define color_flamingo    #f2cdcd
+#define color_pink        #f5c2e7
+#define color_mauve       #cba6f7
+#define color_red         #f38ba8
+#define color_maroon      #eba0ac
+#define color_peach       #fab387
+#define color_yellow      #f9e2af
+#define color_green       #a6e3a1
+#define color_teal        #94e2d5
+#define color_sky         #89dceb
+#define color_sapphire    #74c7ec
+#define color_blue        #89b4fa
+#define color_lavender    #b4befe
+#define color_text        #cdd6f4
+#define color_subtext1    #bac2de
+#define color_subtext0    #a6adc8
+#define color_overlay2    #9399b2
+#define color_overlay1    #7f849c
+#define color_overlay0    #6c7086
+#define color_surface2    #585b70
+#define color_surface1    #45475a
+#define color_surface0    #313244
+#define color_base        #1e1e2e
+#define color_mantle      #181825
+#define color_crust       #11111b
+
+! --------------------------------------------
+! -- Component resources
+! --------------------------------------------
+
+#include "/usr/share/regolith-look/catppuccin-mocha/i3xrocks"
+#include "/usr/share/regolith-look/catppuccin-mocha/wm"
+#include "/usr/share/regolith-look/catppuccin-mocha/gnome-terminal"
+
+! --------------------------------------------
+! -- Loader Path - Path to script responsible
+! -- for configuring UI from Xres values
+! --------------------------------------------
+
+regolith.look.loader: /usr/share/regolith-look/default_loader.sh
