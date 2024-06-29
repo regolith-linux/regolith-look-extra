@@ -9,45 +9,6 @@
 regolith.look: blackhole
 
 ! --------------------------------------------
-! -- Wallpaper 
-! --------------------------------------------
-
-! -- Specify either a complete file path to an image
-
-regolith.wallpaper.file: /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
-regolith.wallpaper.options: zoom
-
-!-- *Or* specify a color
-
-regolith.wallpaper.color.primary: black
-
-!-- If specifying a primary color, optional additional settings
-
-regolith.wallpaper.color.secondary:
-regolith.wallpaper.color.shading.type:
-
-! --------------------------------------------
-! -- Lockscreen Wallpaper 
-! --------------------------------------------
-
-!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
-
-! -- Specify either a complete file path to an image
-! -- and (optionally) options how to display the file
-
-regolith.lockscreen.wallpaper.file: /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
-regolith.lockscreen.wallpaper.options: zoom
-
-!-- *Or* specify a color
-
-regolith.lockscreen.wallpaper.color.primary:
-
-!-- If specifying a primary color, optional additional settings
-
-regolith.lockscreen.wallpaper.color.secondary:
-regolith.lockscreen.wallpaper.color.shading.type:
-
-! --------------------------------------------
 ! -- Theme elements
 ! --------------------------------------------
 
@@ -88,6 +49,45 @@ gtk.monospace_font_name: gtk_monospace_font_name
 #define color_blue     #73d0ff
 #define color_cyan     #95e6cb
 #define color_green    #bae67e
+
+! --------------------------------------------
+! -- Wallpaper
+! --------------------------------------------
+
+! -- Specify either a complete file path to an image
+
+regolith.wallpaper.file: /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
+regolith.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.wallpaper.color.primary: color_black
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.wallpaper.color.secondary:
+regolith.wallpaper.color.shading.type:
+
+! --------------------------------------------
+! -- Lockscreen Wallpaper
+! --------------------------------------------
+
+!-- the following keys can be set to specify the lockscreen background, as above with desktop wallpaper
+
+! -- Specify either a complete file path to an image
+! -- and (optionally) options how to display the file
+
+regolith.lockscreen.wallpaper.file: /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
+regolith.lockscreen.wallpaper.options: zoom
+
+!-- *Or* specify a color
+
+regolith.lockscreen.wallpaper.color.primary:
+
+!-- If specifying a primary color, optional additional settings
+
+regolith.lockscreen.wallpaper.color.secondary:
+regolith.lockscreen.wallpaper.color.shading.type:
 
 ! --------------------------------------------
 ! -- Component resources
