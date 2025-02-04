@@ -1,3 +1,15 @@
+regolith-look-extra (0.9.2) jammy; urgency=medium
+
+  [ Khosrow Moossavi ]
+  * chore: remove obsolete package broadcast action
+  * feat: enable github action to test pull requests
+  * feat: enable github action to publish to unstable
+  * feat: enable github action to publish to testing
+  * feat: enable github action to prepare release
+  * fix: create release tag from correct git sha
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 04 Feb 2025 02:32:42 +0000
+
 regolith-look-extra (0.9.1) jammy; urgency=medium
 
   [ Haakon Sporsheim ]
