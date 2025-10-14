@@ -1,3 +1,10 @@
+regolith-look-extra (0.9.3) jammy; urgency=medium
+
+  [ Khosrow Moossavi ]
+  * feat: use build-only to test pull request
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 14 Oct 2025 00:23:26 +0000
+
 regolith-look-extra (0.9.2) jammy; urgency=medium
 
   [ Khosrow Moossavi ]
