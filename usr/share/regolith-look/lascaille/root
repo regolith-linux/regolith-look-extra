@@ -104,9 +104,9 @@ gtk.monospace_font_name: gtk_monospace_font_name
 ! -- Component resources
 ! --------------------------------------------
 
-#include "/usr/share/regolith-look/lascaille/i3xrocks"
-#include "/usr/share/regolith-look/lascaille/wm"
-#include "/usr/share/regolith-look/lascaille/gnome-terminal"
+#include "i3xrocks"
+#include "wm"
+#include "gnome-terminal"
 
 ! --------------------------------------------
 ! -- Loader Path - Path to script responsible 

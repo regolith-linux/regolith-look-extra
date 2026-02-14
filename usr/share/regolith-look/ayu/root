@@ -101,9 +101,9 @@ gtk.monospace_font_name: gtk_monospace_font_name
 ! -- Component resources
 ! --------------------------------------------
 
-#include "/usr/share/regolith-look/ayu/i3xrocks"
-#include "/usr/share/regolith-look/ayu/wm"
-#include "/usr/share/regolith-look/ayu/gnome-terminal"
+#include "i3xrocks"
+#include "wm"
+#include "gnome-terminal"
 
 ! --------------------------------------------
 ! -- Loader Path - Path to script responsible 
