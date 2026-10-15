@@ -53,6 +53,7 @@ regolith.lockscreen.wallpaper.color.shading.type:
 
 gtk.theme_name: Gruvbox
 gtk.icon_theme_name: Moka
+gtk.color_scheme: prefer-dark
 
 ! --------------------------------------------
 ! -- Fonts

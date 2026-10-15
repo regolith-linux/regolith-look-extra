@@ -56,6 +56,7 @@ regolith.lockscreen.wallpaper.color.shading.type:
 
 gtk.theme_name: Ayu-Mirage-Dark
 gtk.icon_theme_name: Papirus-Dark
+gtk.color_scheme: prefer-dark
 
 ! --------------------------------------------
 ! -- Fonts

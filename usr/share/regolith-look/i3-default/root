@@ -53,6 +53,7 @@ regolith.lockscreen.wallpaper.color.shading.type:
 
 gtk.theme_name: Adwaita-dark
 gtk.icon_theme_name: Adwaita
+gtk.color_scheme: prefer-dark
 
 ! --------------------------------------------
 ! -- Compositor Config

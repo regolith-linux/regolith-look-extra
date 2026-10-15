@@ -14,6 +14,7 @@ regolith.look: nevil
 
 gtk.theme_name: WhiteSur-light
 gtk.icon_theme_name: Moka
+gtk.color_scheme: prefer-light
 
 ! --------------------------------------------
 ! -- Fonts

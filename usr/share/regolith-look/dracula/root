@@ -53,6 +53,7 @@ regolith.lockscreen.wallpaper.color.shading.type:
 
 gtk.theme_name: Dracula
 gtk.icon_theme_name: Dracula
+gtk.color_scheme: prefer-dark
 
 ! --------------------------------------------
 ! -- Compositor Config

@@ -53,6 +53,7 @@ regolith.lockscreen.wallpaper.color.shading.type:
 
 gtk.theme_name: Ayu
 gtk.icon_theme_name: Arc
+gtk.color_scheme: prefer-light
 
 ! --------------------------------------------
 ! -- Compositor Config
