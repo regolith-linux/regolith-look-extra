@@ -14,6 +14,7 @@ regolith.look: blackhole
 
 gtk.theme_name: Ayu-Dark
 gtk.icon_theme_name: Arc
+gtk.color_scheme: prefer-dark
 
 ! --------------------------------------------
 ! -- Fonts
