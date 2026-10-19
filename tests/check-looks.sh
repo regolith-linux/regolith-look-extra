@@ -26,6 +26,34 @@ for dir in "$LOOK_ROOT"/*/; do
         "") echo "FAIL $look: gtk.color_scheme is not set" >&2; status=1 ;;
         *) echo "FAIL $look: invalid gtk.color_scheme '$scheme'" >&2; status=1 ;;
     esac
+
+    # The picom config the look selects must ship with it and load in every
+    # picom the releases install: Regolith's 11.2.4 build and the
+    # distributions' 12.x and 13.x.
+    picom=$(sed -n 's/^regolith\.compositor\.picom\.config:[[:space:]]*\([^[:space:]]*\)[[:space:]]*$/\1/p' "$root")
+    [ -n "$picom" ] || continue
+    conf="${picom#/}"
+    if [ ! -f "$conf" ]; then
+        echo "FAIL $look: picom config $picom is not in this package" >&2
+        status=1
+        continue
+    fi
+    # Options picom 12 or 13 report as deprecated.
+    deprecated=$(grep -nE '^[[:space:]]*(xinerama-shadow-crop|glx-no-stencil|glx-no-rebind-pixmap)[[:space:]]*=' "$conf" || true)
+    # picom 11 cannot parse a window rule target without its type
+    # ("Target type cannot be determined"); picom 12+ only warns about it.
+    untyped=$(grep -nE '^[^#]*"[^"]*[A-Za-z0-9_]@([^:]|$)' "$conf" || true)
+    if [ -n "$deprecated" ]; then
+        echo "FAIL $look: deprecated picom options in $picom:" >&2
+        printf '%s\n' "$deprecated" >&2
+        status=1
+    elif [ -n "$untyped" ]; then
+        echo "FAIL $look: picom rule targets without a type in $picom:" >&2
+        printf '%s\n' "$untyped" >&2
+        status=1
+    else
+        echo "ok   $look: picom config $picom"
+    fi
 done
 
 if [ "$count" -eq 0 ]; then
