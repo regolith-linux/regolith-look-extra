@@ -1,3 +1,14 @@
+regolith-look-extra (0.10.0) jammy; urgency=medium
+
+  [ Carlos Fernandez Sanz ]
+  * feat: set gtk.color_scheme in every look
+  * test: check every look sets a valid gtk.color_scheme at build time
+  * fix(nevil): use a proportional UI font
+  * fix: keep the looks' picom configs free of deprecated options
+  * test: check the looks' picom configs at build time
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 20 Oct 2026 13:59:08 +0000
+
 regolith-look-extra (0.9.3) jammy; urgency=medium
 
   [ Khosrow Moossavi ]
