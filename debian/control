@@ -111,7 +111,7 @@ Package: regolith-look-i3-default
 Architecture: any
 Depends: ${misc:Depends},
   gnome-themes-extra-data,
-  fonts-nerd-font-bitstreamverasansmono,
+  fonts-nerd-font-dejavusansmono,
   adwaita-icon-theme,
   regolith-look-default-loader
 Provides: regolith-look-2
