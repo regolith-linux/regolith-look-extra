@@ -67,8 +67,8 @@ Package: regolith-look-dracula
 Architecture: any
 Depends: ${misc:Depends},
   dracula-gtk,
+  dracula-icon-theme,
   fonts-nerd-font-robotomono,
-  moka-icon-theme,
   regolith-look-default-loader
 Provides: regolith-look-2
 Description: User contributed Dracula theme
