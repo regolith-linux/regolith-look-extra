@@ -1,3 +1,11 @@
+regolith-look-extra (0.10.2) jammy; urgency=medium
+
+  [ rego-port-bot ]
+  * fix(dracula): depend on the Dracula icon theme instead of Moka
+  * fix(i3-default): depend on the DejaVuSansMono Nerd Font the look uses
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Thu, 05 Nov 2026 15:38:42 -0800
+
 regolith-look-extra (0.10.0) jammy; urgency=medium
 
   [ Carlos Fernandez Sanz ]
