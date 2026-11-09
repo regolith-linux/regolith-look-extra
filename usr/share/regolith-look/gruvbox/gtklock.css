@@ -1,0 +1,15 @@
+/* The sway lock screen (gtklock): put the clock and the password prompt on
+   a panel, as the X11 lock screen does, so that they stay readable over the
+   light logo in the middle of the wallpaper. */
+
+#window-box {
+  background-color: rgba(40, 40, 40, 0.9);
+  border-radius: 8px;
+  padding: 24px 36px;
+}
+
+#clock-label,
+#date-label,
+#input-label {
+  color: #ebdbb2;
+}
