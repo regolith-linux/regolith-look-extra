@@ -67,9 +67,9 @@ regolith.compositor.picom.config: /usr/share/regolith-look/i3-default/picom.conf
 ! -- Fonts
 ! --------------------------------------------
 
-#define gtk_font_name DejaVuSansMono Nerd Font 10
-#define gtk_document_font_name DejaVuSansMono Nerd Font 10
-#define gtk_monospace_font_name DejaVuSansMono Nerd Font 10
+#define gtk_font_name DejaVuSansM Nerd Font 10
+#define gtk_document_font_name DejaVuSansM Nerd Font 10
+#define gtk_monospace_font_name DejaVuSansM Nerd Font 10
 
 gtk.font_name: gtk_font_name
 gtk.document_font_name: gtk_document_font_name
