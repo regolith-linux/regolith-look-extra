@@ -27,6 +27,17 @@ for dir in "$LOOK_ROOT"/*/; do
         *) echo "FAIL $look: invalid gtk.color_scheme '$scheme'" >&2; status=1 ;;
     esac
 
+    # A gtklock stylesheet the look selects must ship with it
+    gtklock=$(sed -n 's/^gtklock\.stylesheet:[[:space:]]*\([^[:space:]]*\)[[:space:]]*$/\1/p' "$dir"* | tail -n 1)
+    if [ -n "$gtklock" ]; then
+        if [ -f "${gtklock#/}" ]; then
+            echo "ok   $look: gtklock stylesheet $gtklock"
+        else
+            echo "FAIL $look: gtklock stylesheet $gtklock is not in this package" >&2
+            status=1
+        fi
+    fi
+
     # The picom config the look selects must ship with it and load in every
     # picom the releases install: Regolith's 11.2.4 build and the
     # distributions' 12.x and 13.x.
