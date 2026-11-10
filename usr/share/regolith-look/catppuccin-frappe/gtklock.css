@@ -1,0 +1,19 @@
+/* The sway lock screen (gtklock) in Catppuccin Frappe. The sway lock
+   shows no lock-screen color of its own, so the window takes the base color
+   that the X11 lock screen gets from regolith.lockscreen.wallpaper.color.primary. */
+
+window {
+  background-color: #303446;
+}
+
+#window-box {
+  background-color: #292c3c;
+  border-radius: 8px;
+  padding: 24px 36px;
+}
+
+#clock-label,
+#date-label,
+#input-label {
+  color: #c6d0f5;
+}

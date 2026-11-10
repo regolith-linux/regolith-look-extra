@@ -1,0 +1,54 @@
+/* Catppuccin Latte */
+
+.root_box {
+  margin: 8px;
+}
+
+window {
+  background-color: #eff1f5;
+  color: #4c4f69;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8839ef;
+}
+
+.filter_entry {
+  border: none;
+  background: none;
+  color: #4c4f69;
+  caret-color: #dc8a78;
+  min-height: 36px;
+  min-width: 320px;
+}
+
+.notebook {
+  border: none;
+}
+
+.notebook header,
+.notebook stack,
+.notebook treeview {
+  background-color: #eff1f5;
+  color: #4c4f69;
+}
+
+.notebook tab label {
+  color: #6c6f85;
+}
+
+.notebook tab:checked label {
+  color: #8839ef;
+}
+
+.notebook treeview:selected {
+  background-color: #bcc0cc;
+  color: #4c4f69;
+}
+
+.help_heading {
+  color: #8839ef;
+}
+
+.keybindings {
+  font-family: JetBrainsMono Nerd Font;
+}
