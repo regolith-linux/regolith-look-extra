@@ -64,7 +64,7 @@ gtk.color_scheme: prefer-dark
 
 #define gtk_font_name Bitstream Vera Sans 11
 #define gtk_document_font_name Sans 11
-#define gtk_monospace_font_name BitstreamVeraSansMono Nerd Font 12
+#define gtk_monospace_font_name BitstromWera Nerd Font 12
 
 gtk.font_name: gtk_font_name
 gtk.document_font_name: gtk_document_font_name

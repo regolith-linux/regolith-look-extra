@@ -11,7 +11,7 @@ Package: regolith-look-nord
 Architecture: any
 Depends: ${misc:Depends},
   arc-icon-theme,
-  fonts-nerd-font-robotomono,
+  fonts-nerd-font-robotomono (>= 3.5.1),
   nordic,
   regolith-look-default-loader
 Provides: regolith-look-2
@@ -23,7 +23,7 @@ Architecture: any
 Depends: ${misc:Depends},
   arc-icon-theme,
   ayu-theme,
-  fonts-nerd-font-sourcecodepro,
+  fonts-nerd-font-sourcecodepro (>= 3.5.1),
   regolith-look-default-loader
 Provides: regolith-look-2
 Description: A very dark and minimalist theme for Regolith
@@ -34,7 +34,7 @@ Architecture: any
 Depends: ${misc:Depends},
   gruvbox-gtk,
   moka-icon-theme,
-  fonts-nerd-font-cousine,
+  fonts-nerd-font-cousine (>= 3.5.1),
   regolith-look-default-loader
 Provides: regolith-look-2
 Description: Gruvbox look for Regolith
@@ -46,7 +46,7 @@ Depends: ${misc:Depends},
   gruvbox-gtk,
   arc-icon-theme,
   solarc-theme,
-  fonts-nerd-font-meslo,
+  fonts-nerd-font-meslo (>= 3.5.1),
   regolith-look-default-loader
 Provides: regolith-look-2
 Description: Solarized Dark look for Regolith
@@ -56,7 +56,7 @@ Package: regolith-look-nevil
 Architecture: any
 Depends: ${misc:Depends},
   moka-icon-theme,
-  fonts-nerd-font-mononoki,
+  fonts-nerd-font-mononoki (>= 3.5.1),
   whitesur-gtk-theme,
   regolith-look-default-loader
 Provides: regolith-look-2
@@ -68,7 +68,7 @@ Architecture: any
 Depends: ${misc:Depends},
   dracula-gtk,
   dracula-icon-theme,
-  fonts-nerd-font-robotomono,
+  fonts-nerd-font-robotomono (>= 3.5.1),
   regolith-look-default-loader
 Provides: regolith-look-2
 Description: User contributed Dracula theme
@@ -78,7 +78,7 @@ Package: regolith-look-ayu
 Architecture: any
 Depends: ${misc:Depends},
   ayu-theme,
-  fonts-nerd-font-hack,
+  fonts-nerd-font-hack (>= 3.5.1),
   arc-icon-theme,
   regolith-look-default-loader
 Provides: regolith-look-2
@@ -89,7 +89,7 @@ Package: regolith-look-ayu-dark
 Architecture: any
 Depends: ${misc:Depends},
   ayu-theme,
-  fonts-nerd-font-hack,
+  fonts-nerd-font-hack (>= 3.5.1),
   arc-icon-theme,
   regolith-look-default-loader
 Provides: regolith-look-2
@@ -100,7 +100,7 @@ Package: regolith-look-ayu-mirage
 Architecture: any
 Depends: ${misc:Depends},
   ayu-theme,
-  fonts-nerd-font-hack,
+  fonts-nerd-font-hack (>= 3.5.1),
   arc-icon-theme,
   regolith-look-default-loader
 Provides: regolith-look-2
@@ -111,7 +111,7 @@ Package: regolith-look-i3-default
 Architecture: any
 Depends: ${misc:Depends},
   gnome-themes-extra-data,
-  fonts-nerd-font-dejavusansmono,
+  fonts-nerd-font-dejavusansmono (>= 3.5.1),
   adwaita-icon-theme,
   regolith-look-default-loader
 Provides: regolith-look-2
@@ -123,7 +123,7 @@ Architecture: any
 Depends: ${misc:Depends},
   ayu-theme,
   papirus-icon-theme,
-  fonts-nerd-font-bitstreamverasansmono,
+  fonts-nerd-font-bitstreamverasansmono (>= 3.5.1),
   regolith-look-default-loader
 Provides: regolith-look-2
 Description: i3 inspired look
