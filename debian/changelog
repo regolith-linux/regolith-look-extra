@@ -1,3 +1,11 @@
+regolith-look-extra (0.11.0) jammy; urgency=medium
+
+  [ rego-port-bot ]
+  * fix(gruvbox): keep the sway lock screen clock readable
+  * feat: move every look to Nerd Fonts 3
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 10 Nov 2026 17:35:48 -0800
+
 regolith-look-extra (0.10.2) jammy; urgency=medium
 
   [ rego-port-bot ]
