@@ -128,3 +128,51 @@ Depends: ${misc:Depends},
 Provides: regolith-look-2
 Description: i3 inspired look
  A look intended to match the default i3 experience
+
+Package: regolith-look-catppuccin-latte
+Architecture: any
+Depends: ${misc:Depends},
+  gnome-themes-extra-data,
+  papirus-icon-theme,
+  fonts-nerd-font-jetbrainsmono,
+  regolith-look-default-loader
+Provides: regolith-look-2
+Description: Catppuccin Latte look for Regolith
+ Regolith Look with the light Catppuccin Latte color scheme, Papirus icons,
+ JetBrains Mono font, and the Adwaita GTK theme
+
+Package: regolith-look-catppuccin-frappe
+Architecture: any
+Depends: ${misc:Depends},
+  gnome-themes-extra-data,
+  papirus-icon-theme,
+  fonts-nerd-font-jetbrainsmono,
+  regolith-look-default-loader
+Provides: regolith-look-2
+Description: Catppuccin Frappé look for Regolith
+ Regolith Look with the dark Catppuccin Frappé color scheme, Papirus icons,
+ JetBrains Mono font, and the Adwaita GTK theme
+
+Package: regolith-look-catppuccin-macchiato
+Architecture: any
+Depends: ${misc:Depends},
+  gnome-themes-extra-data,
+  papirus-icon-theme,
+  fonts-nerd-font-jetbrainsmono,
+  regolith-look-default-loader
+Provides: regolith-look-2
+Description: Catppuccin Macchiato look for Regolith
+ Regolith Look with the dark Catppuccin Macchiato color scheme, Papirus icons,
+ JetBrains Mono font, and the Adwaita GTK theme
+
+Package: regolith-look-catppuccin-mocha
+Architecture: any
+Depends: ${misc:Depends},
+  gnome-themes-extra-data,
+  papirus-icon-theme,
+  fonts-nerd-font-jetbrainsmono,
+  regolith-look-default-loader
+Provides: regolith-look-2
+Description: Catppuccin Mocha look for Regolith
+ Regolith Look with the dark Catppuccin Mocha color scheme, Papirus icons,
+ JetBrains Mono font, and the Adwaita GTK theme

@@ -1,0 +1,54 @@
+/* Catppuccin Macchiato */
+
+.root_box {
+  margin: 8px;
+}
+
+window {
+  background-color: #24273a;
+  color: #cad3f5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c6a0f6;
+}
+
+.filter_entry {
+  border: none;
+  background: none;
+  color: #cad3f5;
+  caret-color: #f4dbd6;
+  min-height: 36px;
+  min-width: 320px;
+}
+
+.notebook {
+  border: none;
+}
+
+.notebook header,
+.notebook stack,
+.notebook treeview {
+  background-color: #24273a;
+  color: #cad3f5;
+}
+
+.notebook tab label {
+  color: #a5adcb;
+}
+
+.notebook tab:checked label {
+  color: #c6a0f6;
+}
+
+.notebook treeview:selected {
+  background-color: #494d64;
+  color: #cad3f5;
+}
+
+.help_heading {
+  color: #c6a0f6;
+}
+
+.keybindings {
+  font-family: JetBrainsMono Nerd Font;
+}

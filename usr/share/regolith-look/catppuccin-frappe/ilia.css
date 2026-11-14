@@ -1,0 +1,54 @@
+/* Catppuccin Frappe */
+
+.root_box {
+  margin: 8px;
+}
+
+window {
+  background-color: #303446;
+  color: #c6d0f5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ca9ee6;
+}
+
+.filter_entry {
+  border: none;
+  background: none;
+  color: #c6d0f5;
+  caret-color: #f2d5cf;
+  min-height: 36px;
+  min-width: 320px;
+}
+
+.notebook {
+  border: none;
+}
+
+.notebook header,
+.notebook stack,
+.notebook treeview {
+  background-color: #303446;
+  color: #c6d0f5;
+}
+
+.notebook tab label {
+  color: #a5adce;
+}
+
+.notebook tab:checked label {
+  color: #ca9ee6;
+}
+
+.notebook treeview:selected {
+  background-color: #51576d;
+  color: #c6d0f5;
+}
+
+.help_heading {
+  color: #ca9ee6;
+}
+
+.keybindings {
+  font-family: JetBrainsMono Nerd Font;
+}
